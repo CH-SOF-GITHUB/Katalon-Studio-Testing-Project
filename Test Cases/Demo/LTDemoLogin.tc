@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Test Login ecommerce-playground.lambdatest</description>
+   <name>LTDemoLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3615f4fa-5774-4e6b-bff4-dbd64d3c94b4</testCaseGuid>
+</TestCaseEntity>

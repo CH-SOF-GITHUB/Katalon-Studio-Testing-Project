@@ -17,9 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API/DemoAPI/anything'))
+WebUI.openBrowser('https://ecommerce-playground.lambdatest.io/index.php?route=account/login')
 
-WS.verifyResponseStatusCode(response, 200)
+WebUI.maximizeWindow()
 
-WS.verifyElementPropertyValue('', '', null)
+WebUI.verifyTextPresent('I am a returning customer', false)
+
+WebUI.setText(findTestObject('FO_Login/LambdaTest/Page_Account Login/input_E-Mail Address_input-email'), GlobalVariable.Email)
+
+WebUI.setText(findTestObject('FO_Login/LambdaTest/Page_Account Login/input_Password_input-password'), GlobalVariable.Password)
+
+WebUI.click(findTestObject('FO_Login/LambdaTest/Page_Account Login/input_Forgotten Password_btn btn-primary'))
+
+ActualURL = WebUI.getUrl()
+
+WebUI.verifyEqual(ActualURL, 'https://ecommerce-playground.lambdatest.io/index.php?route=account/account')
+
+WebUI.closeBrowser()
 

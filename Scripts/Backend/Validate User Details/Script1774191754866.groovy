@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-response = WS.sendRequest(findTestObject('API/DemoAPI/anything'))
+def response = WS.sendRequest(findTestObject('API/DemoAPI/GetUsersDetails'))
 
 WS.verifyResponseStatusCode(response, 200)
 
-WS.verifyElementPropertyValue('', '', null)
+WS.verifyElementPropertyValue(response, 'data.username', 'Antonette')
 

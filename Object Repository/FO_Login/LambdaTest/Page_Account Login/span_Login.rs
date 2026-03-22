@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Login</name>
+   <tag></tag>
+   <elementGuidId>5b759260-299f-474f-8800-8da15810d3ce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widget-navbar-217834']/ul/li[6]/ul/li/a/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.icon-left.both.dropdown-item.active > div.info > span.title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Login&quot;s]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f973645e-27b5-4a46-bc19-ff7d62fc334e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>b3f6a87c-606f-4e66-920a-7edda3464084</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Login
+</value>
+      <webElementGuid>6983c46d-7f65-4f11-89af-845e5b6dfb36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;widget-navbar-217834&quot;)/ul[@class=&quot;navbar-nav horizontal&quot;]/li[@class=&quot;nav-item dropdown dropdown-hoverable show&quot;]/ul[@class=&quot;mz-sub-menu-96 dropdown-menu show&quot;]/li[1]/a[@class=&quot;icon-left both dropdown-item active&quot;]/div[@class=&quot;info&quot;]/span[@class=&quot;title&quot;]</value>
+      <webElementGuid>9323db30-732c-4b1d-b375-695f4e3de938</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='widget-navbar-217834']/ul/li[6]/ul/li/a/div/span</value>
+      <webElementGuid>18c9e329-f235-4b87-b5b4-d97f233aea30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/following::span[1]</value>
+      <webElementGuid>61202f6d-cebe-4011-85d5-068144094889</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Widgets'])[1]/following::span[2]</value>
+      <webElementGuid>67c34a69-9d2d-4419-bdaa-5573584d2b21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::span[1]</value>
+      <webElementGuid>7a5abfb9-4905-4d76-9709-e2d7236c1e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Categories'])[3]/preceding::span[2]</value>
+      <webElementGuid>5a906fc8-d6f9-4188-9b3e-5a8fa5f2231c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
+      <webElementGuid>ebf9ad6b-7071-44db-ab23-24fd25fe96a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li/a/div/span</value>
+      <webElementGuid>929f6f8e-71f1-4bb0-923b-151d8adc0456</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Login
+' or . = ' Login
+')]</value>
+      <webElementGuid>17bc13e8-6bea-4164-ba24-5fdea75b9378</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
