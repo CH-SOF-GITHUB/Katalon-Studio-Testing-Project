@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with email valid and password valid</description>
+   <name>TC01DataDrivenLogin</name>
+   <tag>@Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2b689e22-213f-4dd5-ba09-70ba4c6f782b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f6689ab4-bd51-4186-b62a-8de8b00d68ff</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginFO/TestData01</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f6689ab4-bd51-4186-b62a-8de8b00d68ff</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>a323b86d-d89b-48b9-81af-664bfa78b483</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f6689ab4-bd51-4186-b62a-8de8b00d68ff</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>8b33df2c-a9b1-42c6-bbb0-554ffd7a69dc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a323b86d-d89b-48b9-81af-664bfa78b483</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8b33df2c-a9b1-42c6-bbb0-554ffd7a69dc</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

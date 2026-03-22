@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with email valid and password valid</description>
+   <name>TC01ValidLogin</name>
+   <tag>@Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7c51e75f-65a3-4f6d-a6b7-440d0dd39380</testCaseGuid>
+</TestCaseEntity>

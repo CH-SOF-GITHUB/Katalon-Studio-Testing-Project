@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Connexion</name>
+   <tag></tag>
+   <elementGuidId>0e94630c-ab05-4638-8399-ec2910297b56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservations'])[1]/following::span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.font-semibold.text-black.text-xl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Connexion&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dad2df72-e8d7-473b-b36a-09f494ba3d4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold text-black text-xl</value>
+      <webElementGuid>ae02b20c-e0e8-4d31-8e1e-92557b96bd05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Connexion</value>
+      <webElementGuid>1e8e3873-4606-4c56-82ae-ffb5ecb20eeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/main[@class=&quot;flex md:items-start items-start lg:flex-row flex-col lg:justify-evenly justify-between gap-4 md:h-auto xs:min-h-[100dvh] py-6 mx-[4.5%]&quot;]/div[@class=&quot;lg:w-1/3 w-full space-y-4&quot;]/span[@class=&quot;font-semibold text-black text-xl&quot;]</value>
+      <webElementGuid>fbae571a-14cc-4120-9023-132fd129286b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservations'])[1]/following::span[2]</value>
+      <webElementGuid>bb82b684-fcbd-4634-8d95-5a144a017c59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contactez-nous'])[1]/following::span[2]</value>
+      <webElementGuid>6bc7b02a-9b8c-4019-9a57-de4fb4d4ca1c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::span[1]</value>
+      <webElementGuid>767bea52-c3db-44a4-b92c-e29ca50645ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Connexion']/parent::*</value>
+      <webElementGuid>a476f190-de34-4a64-9f19-652fd293c128</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>5d3107a9-c1b6-4c92-9ef8-c259aef569d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Connexion' or . = 'Connexion')]</value>
+      <webElementGuid>a76ff6ae-d4e3-4799-8a4b-848237e6dc58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

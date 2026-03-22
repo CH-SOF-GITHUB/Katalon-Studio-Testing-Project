@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Raison sociale est obligatoire_compan_0a8c8e</name>
+   <tag></tag>
+   <elementGuidId>5876ff3a-730e-440c-9a91-eee3e4ace182</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;companyAddress&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='companyAddress']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Adresse de l’entreprise*&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c86f9651-648d-4c43-a0ec-22517b766da3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-4 py-3 text-base leading-[18px] font-normal border border-solid border-[var(--neutral-gray)] placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF] text-black</value>
+      <webElementGuid>4e744788-b7d5-4c2f-9f82-ed3b41a1efc6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Adresse de l’entreprise*</value>
+      <webElementGuid>f8562002-f69c-480f-a563-0b246d073749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>3854adbe-8846-4407-9315-8677c044a11b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>companyAddress</value>
+      <webElementGuid>349b7a7b-defc-445e-bb2e-16588108b391</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/main[@class=&quot;flex md:items-start items-start lg:flex-row flex-col lg:justify-evenly justify-between gap-4 md:h-auto xs:min-h-[100dvh] py-6 mx-[4.5%]&quot;]/div[@class=&quot;lg:w-1/3 w-full space-y-4&quot;]/form[1]/div[@class=&quot;w-full mb-5&quot;]/div[@class=&quot;relative w-full mb-5&quot;]/input[@class=&quot;w-full px-4 py-3 text-base leading-[18px] font-normal border border-solid border-[var(--neutral-gray)] placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF] text-black&quot;]</value>
+      <webElementGuid>ad0681ce-2010-4293-a9e6-af64615aa116</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='companyAddress']</value>
+      <webElementGuid>98795eba-d4dd-4056-9381-6e6e8948fb72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/input</value>
+      <webElementGuid>43ede080-b930-43d6-b7c7-a4e34f461a62</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Adresse de l’entreprise*' and @type = 'text' and @name = 'companyAddress']</value>
+      <webElementGuid>1308d7e1-6b93-4f2a-9894-184b69908f51</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

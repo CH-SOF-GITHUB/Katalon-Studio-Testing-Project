@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>script code for login functionality</description>
+   <name>Script_TC01_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5df0a5a9-413d-403c-b44d-1c5e4be7dfea</testCaseGuid>
+</TestCaseEntity>

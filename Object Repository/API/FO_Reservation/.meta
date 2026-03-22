@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApiCollectionEntity>
+   <description></description>
+   <name>FO_Reservation</name>
+   <tag></tag>
+   <folderType>WEBELEMENT</folderType>
+   <authorization>
+      <authorizationInfo>
+         <entry>
+            <key>bearerToken</key>
+            <value>571|gQ1zYA8gwv1G8o6rsuLAx18zsr0UiRFDFZ3thNaX</value>
+         </entry>
+      </authorizationInfo>
+      <authorizationType>Bearer</authorizationType>
+   </authorization>
+   <collectionType>MANUAL</collectionType>
+</ApiCollectionEntity>

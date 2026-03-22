@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Mot de passe oubli</name>
+   <tag></tag>
+   <elementGuidId>a2b4a476-4fcd-47bf-b2e0-9dcb3b564e61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='login-form']/div[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Mot de passe oublié ?&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6f02e14d-a080-4d30-881a-66e532bc17b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://chaker-qa-playpro-bo.playpro.fr/back-office/profil/forgot-password</value>
+      <webElementGuid>493d7e5d-f422-4b9a-bb7f-677db417f0af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Mot de passe oublié ?</value>
+      <webElementGuid>a1487972-e553-4b09-9a02-44635c67d431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;login-form&quot;)/div[@class=&quot;forgot poppinsRegular&quot;]/a[1]</value>
+      <webElementGuid>fed71459-cf26-460e-b50d-83c4542929a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='login-form']/div[4]/a</value>
+      <webElementGuid>7e13a4f3-0e03-4788-a306-077402490fa5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Mot de passe oublié ?')]</value>
+      <webElementGuid>db1e2753-6a06-4e08-b15b-6bd9cb85c9a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Connexion'])[1]/following::a[1]</value>
+      <webElementGuid>0a48601d-ce38-43c2-9589-c6a2a18d64c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Messages'])[1]/preceding::a[2]</value>
+      <webElementGuid>add0c77b-ac42-4861-a831-89ba4a68f7df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Timeline'])[1]/preceding::a[3]</value>
+      <webElementGuid>24427050-c3c6-4208-96f0-617bab794a90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mot de passe oublié ?']/parent::*</value>
+      <webElementGuid>4edae35f-e471-4de5-b1f1-8603a9703fed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://chaker-qa-playpro-bo.playpro.fr/back-office/profil/forgot-password')]</value>
+      <webElementGuid>e83d0f4f-5de6-4561-a110-b922245c8f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a</value>
+      <webElementGuid>bfeb964c-7e81-48ab-b7fc-015aa0a8ce53</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://chaker-qa-playpro-bo.playpro.fr/back-office/profil/forgot-password' and (text() = 'Mot de passe oublié ?' or . = 'Mot de passe oublié ?')]</value>
+      <webElementGuid>f5383c8f-1a47-4ba9-8d0c-6540f5ef1f77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

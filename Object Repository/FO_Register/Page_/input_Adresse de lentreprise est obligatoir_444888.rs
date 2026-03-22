@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Adresse de lentreprise est obligatoir_444888</name>
+   <tag></tag>
+   <elementGuidId>e76a82b8-dcc3-4cf9-81e4-6b401c105efd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;identificationNumber&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='identificationNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Numéro d’identification (SIRET, RCS, UID...)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>f42fc24d-49c0-4b56-8e7f-55d8658c1c3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-4 py-3 text-base leading-[18px] font-normal border border-solid border-[var(--neutral-gray)] placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF] text-black</value>
+      <webElementGuid>c20d309d-814c-4bae-8292-3a82faaa47c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Numéro d’identification (SIRET, RCS, UID...)</value>
+      <webElementGuid>2e465105-fd41-49ae-a6bd-0cf88d5c23f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>5f6e90bf-5b10-447f-843e-9a2d0768b764</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>identificationNumber</value>
+      <webElementGuid>70f1cf77-664b-4ad5-961a-de9f9cb9d07a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/main[@class=&quot;flex md:items-start items-start lg:flex-row flex-col lg:justify-evenly justify-between gap-4 md:h-auto xs:min-h-[100dvh] py-6 mx-[4.5%]&quot;]/div[@class=&quot;lg:w-1/3 w-full space-y-4&quot;]/form[1]/div[@class=&quot;w-full mb-5&quot;]/div[@class=&quot;relative w-full mb-5&quot;]/input[@class=&quot;w-full px-4 py-3 text-base leading-[18px] font-normal border border-solid border-[var(--neutral-gray)] placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF] text-black&quot;]</value>
+      <webElementGuid>053920e3-fa31-407a-a982-9a3226dd6502</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='identificationNumber']</value>
+      <webElementGuid>246bd16e-42ad-4502-8f7f-db02eae0a9d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/input</value>
+      <webElementGuid>9c3e30d7-e008-46cc-928b-cc9b8ef97cdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Numéro d’identification (SIRET, RCS, UID...)' and @type = 'text' and @name = 'identificationNumber']</value>
+      <webElementGuid>e9a0ffbd-294d-4a2b-8568-822c1f75e306</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

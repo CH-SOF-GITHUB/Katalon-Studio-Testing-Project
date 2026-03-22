@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input__password</name>
+   <tag></tag>
+   <elementGuidId>18356c2a-6cad-45c3-994e-32aee2d66e19</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative.w-full.mb-5 > input[name=&quot;password&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@name='password'])[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Mot de passe*&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>c4c258ef-1692-43ef-b0f0-442d3eb75f7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>password-input w-full px-4 py-3 text-base leading-[18px] text-black font-normal border border-solid border-[var(--neutral-gray)]  placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF]</value>
+      <webElementGuid>dcde4ab2-0083-4766-94b0-8a7a8a30af2b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Mot de passe*</value>
+      <webElementGuid>7da4f3d2-5aaa-40e4-8f83-d74ff5bbb987</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>new-password</value>
+      <webElementGuid>980af484-3be2-4fa5-8a7d-151debb91629</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>0d9e15a3-eb32-46f1-9810-39fbeb4f035c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>66e5a839-480e-41df-92e7-f88d810c1e2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/main[@class=&quot;flex md:items-start items-start lg:flex-row flex-col lg:justify-evenly justify-between gap-4 md:h-auto xs:min-h-[100dvh] py-6 mx-[4.5%]&quot;]/div[@class=&quot;lg:w-1/3 w-full space-y-4&quot;]/form[1]/div[@class=&quot;relative w-full mb-5&quot;]/input[@class=&quot;password-input w-full px-4 py-3 text-base leading-[18px] text-black font-normal border border-solid border-[var(--neutral-gray)]  placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF]&quot;]</value>
+      <webElementGuid>9089bf81-3e52-4d29-b199-9326e8b88311</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@name='password'])[2]</value>
+      <webElementGuid>e9968cbf-7a89-41ea-af36-1467995a0ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[12]/input</value>
+      <webElementGuid>68cbda7d-c3c5-48d5-9ccd-627ec46e0274</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Mot de passe*' and @type = 'password' and @name = 'password']</value>
+      <webElementGuid>a14bfbfa-e70a-431f-903c-7a4e88809563</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

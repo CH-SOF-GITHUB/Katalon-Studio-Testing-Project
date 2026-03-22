@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_dcembre 2008_MuiButtonBase-root MuiI_97aa22</name>
+   <tag></tag>
+   <elementGuidId>547c1dcb-8ea6-483f-8bc4-d278a65e78be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall.MuiPickersCalendarHeader-switchViewButton.css-1wjkg3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[8]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;calendar view is open, switch to year view&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ff07b9d7-79a7-43a0-abfa-83436e9f3786</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiPickersCalendarHeader-switchViewButton css-1wjkg3</value>
+      <webElementGuid>75dd9b22-9bfa-45cb-a4e4-3ab51ffcc7d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>5344b372-8953-4661-ac5f-383facd01546</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8d353643-f43b-408a-8fdf-3e4f9537148b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>calendar view is open, switch to year view</value>
+      <webElementGuid>4b9d0b05-accc-401d-8234-93607989483a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[@class=&quot;MuiPopper-root MuiPickersPopper-root css-1mtsuo7&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPickersPopper-paper css-736ibl&quot;]/div[@class=&quot;MuiPickersLayout-root css-192l38i&quot;]/div[@class=&quot;MuiPickersLayout-contentWrapper css-lz05jy&quot;]/div[@class=&quot;MuiDateCalendar-root css-5oi4td&quot;]/div[@class=&quot;MuiPickersCalendarHeader-root css-1dozdou&quot;]/div[@class=&quot;MuiPickersCalendarHeader-labelContainer css-16j77m4&quot;]/button[@class=&quot;MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall MuiPickersCalendarHeader-switchViewButton css-1wjkg3&quot;]</value>
+      <webElementGuid>cea379d6-0724-47cc-b495-47abb4df7d41</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[8]</value>
+      <webElementGuid>6e3bb031-d2a4-479d-8a38-49b0e30a9ba5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='décembre 2008'])[1]/following::button[1]</value>
+      <webElementGuid>aedd5847-649c-498b-96aa-17e87845c0be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='L'])[1]/preceding::button[3]</value>
+      <webElementGuid>9f74a078-5e47-478d-8580-d163f2acbca6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='M'])[1]/preceding::button[3]</value>
+      <webElementGuid>a81fdfe7-a15e-4af7-9700-c75a5e57e290</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/button</value>
+      <webElementGuid>2474b490-1cb9-47f7-ba74-8c232e20df30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>b6b0501b-94f9-4110-addb-69979cf494e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

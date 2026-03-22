@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02ScriptValidLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>af39a47b-d71b-4558-b263-9a7fb74dc0e9</testCaseGuid>
+</TestCaseEntity>

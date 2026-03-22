@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Adresse de lentreprise est obligatoir_6d23cd</name>
+   <tag></tag>
+   <elementGuidId>91f3e6f7-33e1-4d76-bfff-635a294108e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;vatNumber&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='vatNumber']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:attr=[placeholder=&quot;Numéro de TVA intracommunautaire&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>0d1082a2-b47c-44fc-aaa1-fb6dde81fc07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full px-4 py-3 text-base leading-[18px] font-normal border border-solid border-[var(--neutral-gray)] placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF] text-black</value>
+      <webElementGuid>bbaae860-5c2f-45bc-819b-9ba5f4a7357e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Numéro de TVA intracommunautaire</value>
+      <webElementGuid>33994d59-f425-4681-bf5d-35ff047c1a15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>141ec3e5-ac0e-44e6-ae32-d8b2686f64ba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>vatNumber</value>
+      <webElementGuid>fd1225ea-f985-4281-982d-8715f2b173cb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/main[@class=&quot;flex md:items-start items-start lg:flex-row flex-col lg:justify-evenly justify-between gap-4 md:h-auto xs:min-h-[100dvh] py-6 mx-[4.5%]&quot;]/div[@class=&quot;lg:w-1/3 w-full space-y-4&quot;]/form[1]/div[@class=&quot;w-full mb-5&quot;]/div[@class=&quot;relative w-full&quot;]/input[@class=&quot;w-full px-4 py-3 text-base leading-[18px] font-normal border border-solid border-[var(--neutral-gray)] placeholder:font-light placeholder:text-xs placeholder-[var(--neutral-gray)] focus:outline-none rounded-lg bg-[#FCFBFF] text-black&quot;]</value>
+      <webElementGuid>9d3c3176-3745-43de-9eb0-09fc566f6c22</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@name='vatNumber']</value>
+      <webElementGuid>46e19c8a-dd6b-4b60-a9fb-bf03c5f15978</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/input</value>
+      <webElementGuid>fa830179-0c80-48d2-bd51-451ec168a6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@placeholder = 'Numéro de TVA intracommunautaire' and @type = 'text' and @name = 'vatNumber']</value>
+      <webElementGuid>b6114352-41e4-4d0d-bdb6-08b19c9655a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

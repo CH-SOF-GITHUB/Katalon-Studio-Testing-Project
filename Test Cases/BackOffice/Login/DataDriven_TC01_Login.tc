@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>script code for login functionality</description>
+   <name>DataDriven_TC01_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d95ad10d-5abd-4492-bdf6-a746b0e5c101</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>32b54d2b-f7dc-48bf-8b95-5502b0da5070</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/LoginBO/BOTestData01</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>32b54d2b-f7dc-48bf-8b95-5502b0da5070</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>032dd090-0b9f-44b3-921a-f989acdc9785</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>32b54d2b-f7dc-48bf-8b95-5502b0da5070</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>ef76b311-d8f2-4100-8463-e1ce385d22dd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>032dd090-0b9f-44b3-921a-f989acdc9785</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ef76b311-d8f2-4100-8463-e1ce385d22dd</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Regiter with valid data</description>
+   <name>TC02EmailAlreadyExists</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a5c09522-3e85-4d1b-84f7-50c2102ffe7d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DemoCustomKeywordTC01</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d476e695-2f38-4adf-b95b-66f2e82982ae</testCaseGuid>
+</TestCaseEntity>

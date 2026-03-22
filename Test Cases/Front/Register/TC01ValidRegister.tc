@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Regiter with valid data</description>
+   <name>TC01ValidRegister</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e7edfab6-3921-43e9-b114-e89dd16976a7</testCaseGuid>
+</TestCaseEntity>

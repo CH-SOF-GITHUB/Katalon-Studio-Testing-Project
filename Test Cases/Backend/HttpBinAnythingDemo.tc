@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>HttpBinAnythingDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>33fe5e25-8fe7-4bf3-b2b9-c4d668cd519d</testCaseGuid>
+</TestCaseEntity>
