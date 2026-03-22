@@ -17,9 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://www.google.com/')
 
-WebUI.navigateToUrl('https://www.google.com/')
+WebUI.maximizeWindow()
 
 CustomKeywords.'demoPackage.demoKeyword.refreshBrowser'()
+
+WebUI.closeBrowser()
 
