@@ -21,17 +21,23 @@ WebUI.openBrowser('')
 
 WebUI.maximizeWindow()
 
-WebUI.navigateToUrl('https://chaker-qa-playpro-bo.playpro.fr/back-office/login')
+WebUI.navigateToUrl('https://chakerqa-bo.playpro.fr/back-office/login')
 
 WebUI.verifyElementText(findTestObject('BackOffice/h2_Connectez-vous'), 'Connectez-vous')
 
-WebUI.setText(findTestObject('BackOffice/input_Connectez-vous_email'), 'adminqabo@yopmail.com')
+WebUI.setText(findTestObject('BackOffice/input_Connectez-vous_email'), 'bchaker28@yahoo.com')
 
-WebUI.setEncryptedText(findTestObject('BackOffice/input_Connectez-vous_password'), 'RAIVpflpDOg=')
+WebUI.setText(findTestObject('BackOffice/input_Connectez-vous_password'), 'Admin1234!')
 
 WebUI.jsClick(findTestObject('BackOffice/input_Rester connect_remember'))
 
 WebUI.click(findTestObject('BackOffice/button_Connexion'))
+
+WebUI.delay(5)
+
+def ActuelURL = WebUI.getUrl()
+
+WebUI.verifyEqual(ActuelURL, 'https://chakerqa-bo.playpro.fr/back-office/planning')
 
 WebUI.closeBrowser()
 

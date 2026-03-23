@@ -17,33 +17,29 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://chakerqa.playpro.fr/connexion')
+WebUI.openBrowser('https://chakerqa.playpro.fr/connexion')
 
 WebUI.maximizeWindow()
 
-WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
+WebUI.click(findTestObject('Cookies/button_Accepter'))
 
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
+WebUI.verifyTextPresent('Connexion', false)
 
 WebUI.setText(findTestObject('FO_Login/input__email'), 'chakerqa-client@yopmail.com')
 
-WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z1YMqKBaTSw==')
+WebUI.setText(findTestObject('FO_Login/input__password'), 'Admin1234!')
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Profil-Icon-Navbar'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/a_Reservations'), 15)
 
-WebUI.click(findTestObject('HomePage/Profil-Icon-Navbar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/HomePage/a_Reservations'))
 
-WebUI.click(findTestObject('HomePage/a_Mon profil'))
+WebUI.delay(7)
 
-WebUI.delay(5)
+def ReservationURL = WebUI.getUrl()
 
-def ActualURL = WebUI.getUrl()
-
-WebUI.verifyEqual(ActualURL, 'https://chakerqa.playpro.fr/profile?tab=profile')
+WebUI.verifyEqual(ReservationURL, 'https://chakerqa.playpro.fr/discover/reservation')
 
 WebUI.closeBrowser()
 

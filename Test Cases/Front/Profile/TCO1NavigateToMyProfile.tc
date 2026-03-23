@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCO1NavigateToMyProfile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4a6c3eeb-e335-479d-861f-5da4f5aa1ddd</testCaseGuid>
+</TestCaseEntity>

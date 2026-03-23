@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with email valid and password valid</description>
+   <name>TC01NavigateToMyPorfile</name>
+   <tag>@Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e2761e3a-89d1-4ce7-a6f9-55c1e57326b2</testCaseGuid>
+</TestCaseEntity>

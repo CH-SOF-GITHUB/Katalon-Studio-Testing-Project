@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tableau de bord</name>
+   <tag></tag>
+   <elementGuidId>d3f118cb-e2ec-482d-b597-691edc1c36ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.nav-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='sidebar1']/div[2]/ul/li/a/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Tableau de bord&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dad80498-7849-4d4a-a333-2e2f611c1e75</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-text</value>
+      <webElementGuid>2a21004d-cc84-4865-be82-fcc89e0a1d97</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tableau de bord</value>
+      <webElementGuid>61ad96bd-1e89-4c11-91b5-37f272fba11f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar1&quot;)/div[@class=&quot;filter-section&quot;]/ul[@class=&quot;nav-main ppv2-w-full p-2&quot;]/li[@class=&quot;nav-main-item&quot;]/a[@class=&quot;nav-main-link sidebarLink&quot;]/span[@class=&quot;nav-content&quot;]/span[@class=&quot;nav-text&quot;]</value>
+      <webElementGuid>4a3cdce5-4a7d-42be-bd7a-810491613380</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='sidebar1']/div[2]/ul/li/a/span/span</value>
+      <webElementGuid>ed12c128-3006-4871-b7d0-e4f7fea63db2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CB'])[1]/following::span[2]</value>
+      <webElementGuid>1fd01bf5-94b7-4188-97f7-81a6ae2369d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assistant IA'])[1]/following::span[2]</value>
+      <webElementGuid>acbec62a-9241-4569-b55d-5d260d79bb8c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Calendrier'])[1]/preceding::span[1]</value>
+      <webElementGuid>16753571-8740-41a6-91cc-9d301610e130</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Caisse nomade'])[1]/preceding::span[3]</value>
+      <webElementGuid>2e04bff5-8552-491c-8308-75b36110c06b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tableau de bord']/parent::*</value>
+      <webElementGuid>a0f94257-4d9d-4fdc-b0d5-0daa52bc7b9b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span</value>
+      <webElementGuid>66802a08-65c2-4d09-986f-c9a6be152ebe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tableau de bord' or . = 'Tableau de bord')]</value>
+      <webElementGuid>a8858a2b-fa12-46df-9d99-bb6bfdaaae98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

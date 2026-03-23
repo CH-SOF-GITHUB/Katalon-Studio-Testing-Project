@@ -33,17 +33,9 @@ WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Profil-Icon-Navbar'), 15)
+not_run: CustomKeywords.'demoPackage.KeywordDemo1.GetCurrentURL'()
 
-WebUI.click(findTestObject('HomePage/Profil-Icon-Navbar'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('HomePage/a_Mon profil'))
-
-WebUI.delay(5)
-
-def ActualURL = WebUI.getUrl()
-
-WebUI.verifyEqual(ActualURL, 'https://chakerqa.playpro.fr/profile?tab=profile')
+WebUI.verifyTextPresent('Trouvez où et avec qui jouer instantanément', false)
 
 WebUI.closeBrowser()
 

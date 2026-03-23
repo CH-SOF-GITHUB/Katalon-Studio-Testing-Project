@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Client should navigate to reservation page directly</description>
+   <name>NavigateToReservationPage01</name>
+   <tag>reservation</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>01f2fc2f-d8cb-4360-8a22-96b876a65ca1</testCaseGuid>
+</TestCaseEntity>

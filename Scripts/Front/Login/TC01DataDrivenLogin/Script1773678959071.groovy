@@ -33,9 +33,9 @@ WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), password)
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.waitForElementVisible(findTestObject('HomePage/button_Reservations_headlessui-menu-button-r4'), 2)
+WebUI.waitForElementVisible(findTestObject('HomePage/Profil-Icon-Navbar'), 2)
 
-WebUI.click(findTestObject('HomePage/button_Reservations_headlessui-menu-button-r4'))
+WebUI.click(findTestObject('HomePage/Profil-Icon-Navbar'))
 
 WebUI.waitForElementVisible(findTestObject('HomePage/a_Mon profil'), 2)
 

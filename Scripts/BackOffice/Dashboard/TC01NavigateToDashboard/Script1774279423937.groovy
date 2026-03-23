@@ -19,31 +19,34 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://chakerqa.playpro.fr/connexion')
-
 WebUI.maximizeWindow()
 
-WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
+WebUI.navigateToUrl('https://chakerqa-bo.playpro.fr/back-office/login')
 
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
+WebUI.setViewPortSize(1280, 600)
 
-WebUI.setText(findTestObject('FO_Login/input__email'), 'chakerqa-client@yopmail.com')
+WebUI.verifyElementText(findTestObject('BackOffice/h2_Connectez-vous'), 'Connectez-vous')
 
-WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z1YMqKBaTSw==')
+WebUI.setText(findTestObject('BackOffice/input_Connectez-vous_email'), 'bchaker28@yahoo.com')
 
-WebUI.click(findTestObject('FO_Login/button_Me connecter'))
+WebUI.setText(findTestObject('BackOffice/input_Connectez-vous_password'), 'Admin1234!')
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Profil-Icon-Navbar'), 15)
+WebUI.jsClick(findTestObject('BackOffice/input_Rester connect_remember'))
 
-WebUI.click(findTestObject('HomePage/Profil-Icon-Navbar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('BackOffice/button_Connexion'))
 
-WebUI.click(findTestObject('HomePage/a_Mon profil'))
+// Zoom OUT
+WebUI.delay(10)
+//WebUI.executeJavaScript("document.body.style.zoom='80%'", null)
+
+WebUI.verifyElementPresent(findTestObject('BackOffice/Page_Play Pro - Calendrier/span_Tableau de bord'), 5)
+
+WebUI.click(findTestObject('BackOffice/Page_Play Pro - Calendrier/span_Tableau de bord'))
 
 WebUI.delay(5)
 
 def ActualURL = WebUI.getUrl()
 
-WebUI.verifyEqual(ActualURL, 'https://chakerqa.playpro.fr/profile?tab=profile')
+WebUI.verifyEqual(ActualURL, 'https://chakerqa-bo.playpro.fr/back-office')
 
 WebUI.closeBrowser()
-
