@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>navigate to devis anniversaire to demand devis</description>
+   <name>NavigateToDevisAnniversaire</name>
+   <tag>devis</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>43d54880-3a61-4ac6-9a51-6409b25ddda3</testCaseGuid>
+</TestCaseEntity>
