@@ -3,14 +3,24 @@
    <description></description>
    <name>a_Mon profil</name>
    <tag></tag>
-   <elementGuidId>34b1a413-c9ed-4be1-a0c7-3e0eb114c702</elementGuidId>
+   <elementGuidId>3239296c-94cc-49a7-aaa0-92f29b06485d</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='headlessui-menu-item-:r1l:']</value>
+         <value>//a[contains(text(),'Mon profil')]</value>
       </entry>
       <entry>
          <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'headlessui-menu-item-:rc:' and @href = '/profile?tab=profile' and (text() = 'Mon profil' or . = 'Mon profil')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,7 +38,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1076da3f-1b40-4edc-8681-c65ae011e74d</webElementGuid>
+      <webElementGuid>3bb5ed34-7819-453d-9231-41a78bcf12dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +48,15 @@
       <value>w-full px-4 py-2 text-sm font-poppins transition-colors
  bg-neutral text-white rounded-lg
 </value>
-      <webElementGuid>aa45743b-bc88-43dd-8a3b-3b23e9b2818c</webElementGuid>
+      <webElementGuid>8aa7d192-6f56-4271-8ef7-2d378945125a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>headlessui-menu-item-:r1l:</value>
-      <webElementGuid>015e83cd-3721-49e1-be59-31d1bb7fa788</webElementGuid>
+      <value>headlessui-menu-item-:rc:</value>
+      <webElementGuid>3b4754e4-7ce1-48b7-ae63-cec2cbd1c454</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +64,7 @@
       <name>role</name>
       <type>Main</type>
       <value>menuitem</value>
-      <webElementGuid>3397ec5a-742a-4a2d-af7d-a8a078fdf33f</webElementGuid>
+      <webElementGuid>68738e38-6e0c-45e9-9d2e-a9eedf3986d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +72,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>7be814b6-65bf-400b-b2f4-e754ab3b897a</webElementGuid>
+      <webElementGuid>d3054792-6a7c-47db-b34a-2586425ed779</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +80,7 @@
       <name>data-headlessui-state</name>
       <type>Main</type>
       <value>active</value>
-      <webElementGuid>430a6982-7758-44fd-8d15-3b98886c17b8</webElementGuid>
+      <webElementGuid>3be20f13-219d-42ec-a1c9-4778c95a55ee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -78,7 +88,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/profile?tab=profile</value>
-      <webElementGuid>8a6e8d93-498b-4300-8fc8-fc63fb932ef7</webElementGuid>
+      <webElementGuid>5f987ada-3a48-4a3b-a41f-a5db8274ebf8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,31 +96,31 @@
       <name>text</name>
       <type>Main</type>
       <value>Mon profil</value>
-      <webElementGuid>07d33714-d725-4a7d-ba7d-070e84af555c</webElementGuid>
+      <webElementGuid>61a8c26d-e498-4a88-986a-0fc5717ebe13</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;headlessui-menu-item-:r1l:&quot;)</value>
-      <webElementGuid>f9c11d06-dcd7-422d-b64a-80ab7f25bb7f</webElementGuid>
+      <value>id(&quot;headlessui-menu-item-:rc:&quot;)</value>
+      <webElementGuid>a39d0725-9299-4c8f-b12c-e539352c1e27</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@id='headlessui-menu-item-:r1l:']</value>
-      <webElementGuid>dddd6a30-c0ad-499c-94fe-9c75e7affb2a</webElementGuid>
+      <value>//a[@id='headlessui-menu-item-:rc:']</value>
+      <webElementGuid>27b44dbc-5fac-4074-a2ce-5207cb91cd2b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='headlessui-menu-items-:r1k:']/div/a</value>
-      <webElementGuid>58093201-d74a-48e1-9b72-f608153c7f0f</webElementGuid>
+      <value>//div[@id='headlessui-menu-items-:rb:']/div/a</value>
+      <webElementGuid>0080de30-beb2-4d2b-8138-cb3f51f4f689</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,15 +128,15 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Mon profil')]</value>
-      <webElementGuid>b5e994b5-3154-4f4e-b617-26c188bca216</webElementGuid>
+      <webElementGuid>3a143d89-2824-432b-ac18-84ebc47f6215</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservations'])[1]/following::a[2]</value>
-      <webElementGuid>58c94f9a-2f0c-4d99-a212-f9968e9f483e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Réservations'])[1]/following::a[2]</value>
+      <webElementGuid>ab532cbd-de2a-45ed-9c6a-004ae3c708ea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +144,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contactez-nous'])[1]/following::a[3]</value>
-      <webElementGuid>a61474be-5f58-4893-9d0b-40898325c08f</webElementGuid>
+      <webElementGuid>0d4613e9-7434-461b-b4ec-a043044717e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +152,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mes réservations'])[1]/preceding::a[1]</value>
-      <webElementGuid>06e28b15-c44b-468c-9a15-098f0d111e42</webElementGuid>
+      <webElementGuid>ece57584-4445-41dc-af38-385f5021872d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,7 +160,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Me déconnecter'])[1]/preceding::a[2]</value>
-      <webElementGuid>c7605c39-0c4f-4b44-a954-c50797f28e61</webElementGuid>
+      <webElementGuid>2da96b82-03d6-4afe-9b41-388c236ddc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -158,7 +168,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Mon profil']/parent::*</value>
-      <webElementGuid>4defdfe8-21c9-41fe-8b39-3cdf44be6b93</webElementGuid>
+      <webElementGuid>cc6963af-ec03-4a76-91be-aa99c85d83cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -166,7 +176,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/profile?tab=profile')]</value>
-      <webElementGuid>4bcfee4e-401f-4ae8-bd02-934be51028c0</webElementGuid>
+      <webElementGuid>1d3f2bfc-60d6-4d30-8da3-1916ffd04840</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -174,14 +184,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/a</value>
-      <webElementGuid>02dc3aa0-bee9-4872-b4d6-f4486f749848</webElementGuid>
+      <webElementGuid>84eb0205-24dc-4794-af9e-4b4f564c7b7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@id = 'headlessui-menu-item-:r1l:' and @href = '/profile?tab=profile' and (text() = 'Mon profil' or . = 'Mon profil')]</value>
-      <webElementGuid>9de07365-9060-406f-ac8d-591e5194a2e3</webElementGuid>
+      <value>//a[@id = 'headlessui-menu-item-:rc:' and @href = '/profile?tab=profile' and (text() = 'Mon profil' or . = 'Mon profil')]</value>
+      <webElementGuid>f9263930-bcc7-415e-bd36-dea92545b28e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

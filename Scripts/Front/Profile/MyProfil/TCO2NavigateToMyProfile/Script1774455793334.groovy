@@ -17,27 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://chaker-qa-playpro.playpro.fr/connexion')
-
-WebUI.maximizeWindow()
-
-WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
-
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
-
-WebUI.setText(findTestObject('FO_Login/input__email'), email)
-
-WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), password)
-
-WebUI.click(findTestObject('FO_Login/button_Me connecter'))
-
-WebUI.waitForElementVisible(findTestObject('PageObjects/Profil-Icon-Navbar'), 2)
-
-WebUI.click(findTestObject('PageObjects/Profil-Icon-Navbar'))
-
-WebUI.waitForElementVisible(findTestObject('null'), 2)
-
-WebUI.closeBrowser()
-

@@ -33,11 +33,11 @@ WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.verifyElementPresent(findTestObject('HomePage/Profil-Icon-Navbar'), 15)
+WebUI.verifyElementPresent(findTestObject('PageObjects/Profil-Icon-Navbar'), 15)
 
-WebUI.click(findTestObject('HomePage/Profil-Icon-Navbar'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('PageObjects/Profil-Icon-Navbar'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('HomePage/a_Mon profil'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(5)
 

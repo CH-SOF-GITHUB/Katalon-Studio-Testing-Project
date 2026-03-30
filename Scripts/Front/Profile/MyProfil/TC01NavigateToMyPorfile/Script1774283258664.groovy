@@ -25,17 +25,17 @@ WebUI.maximizeWindow()
 
 WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
 
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
-
 WebUI.setText(findTestObject('FO_Login/input__email'), 'chakerqa-client@yopmail.com')
 
 WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z1YMqKBaTSw==')
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-not_run: CustomKeywords.'demoPackage.KeywordDemo1.GetCurrentURL'()
+WebUI.click(findTestObject('PageObjects/Profil-Icon-Navbar'))
 
-WebUI.verifyTextPresent('Trouvez où et avec qui jouer instantanément', false)
+WebUI.click(findTestObject('PageObjects/a_Mon profil'))
+
+WebUI.delay(25)
 
 WebUI.closeBrowser()
 

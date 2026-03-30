@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Click on combo and navigate to the reservation page</description>
+   <name>TC01NavigateToCombo</name>
+   <tag>combo</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bd08788a-6933-4146-985d-96a1ec87b7fe</testCaseGuid>
+</TestCaseEntity>

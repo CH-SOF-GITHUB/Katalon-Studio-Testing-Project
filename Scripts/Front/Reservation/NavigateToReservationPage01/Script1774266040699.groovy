@@ -31,9 +31,9 @@ WebUI.setText(findTestObject('FO_Login/input__password'), 'Admin1234!')
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/HomePage/a_Reservations'), 15)
+WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/a_Reservations'), 15)
 
-WebUI.click(findTestObject('Object Repository/HomePage/a_Reservations'))
+WebUI.click(findTestObject('Object Repository/PageObjects/a_Reservations'))
 
 WebUI.delay(7)
 

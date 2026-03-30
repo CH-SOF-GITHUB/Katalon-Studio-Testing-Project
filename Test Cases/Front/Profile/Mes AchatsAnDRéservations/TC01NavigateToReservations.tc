@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with email valid and password valid</description>
+   <name>TC01NavigateToReservations</name>
+   <tag>@Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>45ca7f70-b1fe-4178-85dd-48c591d2b083</testCaseGuid>
+</TestCaseEntity>

@@ -18,8 +18,8 @@ WebUI.setEncryptedText(findTestObject('Object Repository/FO_Login/input__passwor
 // click on Login Button
 WebUI.click(findTestObject('Object Repository/FO_Login/button_Me connecter'))
 // check Header of Page after Login
-WebUI.waitForElementPresent(findTestObject('Object Repository/HomePage/h1_Trouvez o et avec qui jouer instantanment'), 3)
-WebUI.verifyElementText(findTestObject('Object Repository/HomePage/h1_Trouvez o et avec qui jouer instantanment'), 'Trouvez où et avec qui jouer instantanément')
+WebUI.waitForElementPresent(findTestObject('Object Repository/PageObjects/h1_Trouvez o et avec qui jouer instantanment'), 3)
+WebUI.verifyElementText(findTestObject('Object Repository/PageObjects/h1_Trouvez o et avec qui jouer instantanment'), 'Trouvez où et avec qui jouer instantanément')
 // close the browser
 WebUI.closeBrowser()
 

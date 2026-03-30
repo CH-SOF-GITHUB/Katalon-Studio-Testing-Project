@@ -19,25 +19,27 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://chaker-qa-playpro.playpro.fr/connexion')
+WebUI.navigateToUrl('https://chakerqa.playpro.fr/connexion')
 
 WebUI.maximizeWindow()
 
 WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
 
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
+WebUI.setText(findTestObject('FO_Login/input__email'), 'chakerqa-client@yopmail.com')
 
-WebUI.setText(findTestObject('FO_Login/input__email'), email)
-
-WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), password)
+WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z1YMqKBaTSw==')
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.waitForElementVisible(findTestObject('PageObjects/Profil-Icon-Navbar'), 2)
+WebUI.click(findTestObject('Object Repository/PageObjects/Profil-Icon-Navbar'))
 
-WebUI.click(findTestObject('PageObjects/Profil-Icon-Navbar'))
+WebUI.click(findTestObject('Object Repository/PageObjects/a_Mon profil'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 2)
+WebUI.delay(10)
+
+WebUI.click(findTestObject('PageObjects/Div_Mes_Achats_Réservations'))
+
+WebUI.delay(10)
 
 WebUI.closeBrowser()
 

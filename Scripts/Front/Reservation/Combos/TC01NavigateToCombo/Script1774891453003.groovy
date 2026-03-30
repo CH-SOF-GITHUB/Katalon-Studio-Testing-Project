@@ -1,6 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
@@ -17,27 +14,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://chaker-qa-playpro.playpro.fr/connexion')
+WebUI.openBrowser('https://demotenant.playpro.fr/connexion')
 
 WebUI.maximizeWindow()
 
-WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
+WebUI.click(findTestObject('Cookies/button_Accepter'))
 
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
+WebUI.setText(findTestObject('FO_Login/input__email'), 'demotenant1@yopmail.com')
 
-WebUI.setText(findTestObject('FO_Login/input__email'), email)
-
-WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), password)
+WebUI.setText(findTestObject('FO_Login/input__password'), 'Admin1234!')
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
-WebUI.waitForElementVisible(findTestObject('PageObjects/Profil-Icon-Navbar'), 2)
+WebUI.verifyElementPresent(findTestObject('PageObjects/Page_playprosite/combo_name1'), 15)
 
-WebUI.click(findTestObject('PageObjects/Profil-Icon-Navbar'))
+WebUI.click(findTestObject('PageObjects/Page_playprosite/combo_name1'))
 
-WebUI.waitForElementVisible(findTestObject('null'), 2)
+WebUI.delay(15)
+
+def ActualComboURL = WebUI.getUrl()
+
+WebUI.verifyEqual(ActualComboURL, 'https://demotenant.playpro.fr/discover/combos/creer-une-formule-combinee?id=94')
 
 WebUI.closeBrowser()
 

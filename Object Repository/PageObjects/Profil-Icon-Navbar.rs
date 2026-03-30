@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Reservations_headlessui-menu-button-r1</name>
+   <name>Profil-Icon-Navbar</name>
    <tag></tag>
-   <elementGuidId>e9742b9e-2a97-49ff-9faa-6c7b6380bebe</elementGuidId>
+   <elementGuidId>557cadea-02db-49fd-a52b-392073e190a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='headlessui-menu-button-:r1:']</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
+         <key>BASIC</key>
+         <value>//*[@id = 'headlessui-menu-button-:r4:' and @type = 'button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='headlessui-menu-button-:r4:']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>[id=&quot;headlessui-menu-button-\:r1\:&quot;]</value>
+         <value>[id=&quot;headlessui-menu-button-\:r4\:&quot;]</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -28,7 +32,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9153fd20-23f1-4bea-b79f-b7d8ad6e9d43</webElementGuid>
+      <webElementGuid>5e4ba607-247f-401f-bb75-9ff071ef57b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -36,15 +40,15 @@
       <name>class</name>
       <type>Main</type>
       <value>flex items-center gap-1 cursor-pointer focus:outline-none</value>
-      <webElementGuid>1153948f-c991-4f80-bbf9-65be0d3c94e3</webElementGuid>
+      <webElementGuid>82206818-b706-4b5e-baac-ab4a5c2c1a0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>headlessui-menu-button-:r1:</value>
-      <webElementGuid>6a155ba5-0c51-42a7-bc8e-cc079740785e</webElementGuid>
+      <value>headlessui-menu-button-:r4:</value>
+      <webElementGuid>e991e734-a1dd-439d-aa64-c3414eea5944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +56,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>660f4316-2863-4ca6-95de-7d4b93b28dd8</webElementGuid>
+      <webElementGuid>35b802b3-cbf8-4f3e-930c-6d0a6d8b821c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -60,7 +64,7 @@
       <name>aria-haspopup</name>
       <type>Main</type>
       <value>menu</value>
-      <webElementGuid>1a0b5c11-72b4-4baa-be81-d2b820f73aac</webElementGuid>
+      <webElementGuid>d1193ffe-858b-446f-8f6b-4c4ea0650425</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -68,23 +72,23 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>27749701-069e-4b42-902d-8a69ca6f8093</webElementGuid>
+      <webElementGuid>983d0a40-e8bb-4cab-a267-3ef58baae813</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;headlessui-menu-button-:r1:&quot;)</value>
-      <webElementGuid>d9e82658-43fa-4d77-97c1-7aaaaf6adc3b</webElementGuid>
+      <value>id(&quot;headlessui-menu-button-:r4:&quot;)</value>
+      <webElementGuid>69b96e8f-de64-4e65-a149-b2180a3cd203</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='headlessui-menu-button-:r1:']</value>
-      <webElementGuid>dfe61f11-ff40-41e6-a5eb-1805fe178560</webElementGuid>
+      <value>//button[@id='headlessui-menu-button-:r4:']</value>
+      <webElementGuid>35eefd91-c9bb-4c03-8ae9-371706c4282b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -92,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reservations'])[1]/following::button[1]</value>
-      <webElementGuid>e6910c2e-5581-4ac9-b804-b85e87f15428</webElementGuid>
+      <webElementGuid>4e5a8073-4ff4-4326-b49f-603ba3ddfb92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,23 +104,23 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Contactez-nous'])[1]/following::button[1]</value>
-      <webElementGuid>48ba5bb9-87a9-4889-bf69-2e8c5fdbdc10</webElementGuid>
+      <webElementGuid>4aed3b24-da6c-4242-ba81-e37322657e99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/preceding::button[2]</value>
-      <webElementGuid>0cf0044a-64e0-471a-8020-1c6e0531150b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Trouvez où et avec qui jouer instantanément'])[1]/preceding::button[2]</value>
+      <webElementGuid>ba9d64b5-fca4-421e-aadf-df34b495b6e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Purchases &amp; Reservations'])[1]/preceding::button[3]</value>
-      <webElementGuid>02d29b8d-156f-4b40-908d-06d2dea090a0</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='...'])[1]/preceding::button[2]</value>
+      <webElementGuid>5734b7cf-dd89-4a0f-959e-36c4621139db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,14 +128,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>6ee76e76-35a0-4262-8b0a-e03b310c6cf3</webElementGuid>
+      <webElementGuid>9759a570-0a81-404d-8c5b-76445f748f3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'headlessui-menu-button-:r1:' and @type = 'button']</value>
-      <webElementGuid>66bf9ba9-3f3f-46f3-989b-bff9b91aef04</webElementGuid>
+      <value>//button[@id = 'headlessui-menu-button-:r4:' and @type = 'button']</value>
+      <webElementGuid>eb1590f5-ed0b-49e6-b96b-4e62f2c282c7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
