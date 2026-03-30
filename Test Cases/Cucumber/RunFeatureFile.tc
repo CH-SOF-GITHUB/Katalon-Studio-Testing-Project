@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Run feature files</description>
+   <name>RunFeatureFile</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>de5af5ea-405c-4d30-877f-9b946526cb23</testCaseGuid>
+</TestCaseEntity>
