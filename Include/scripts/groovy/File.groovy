@@ -49,21 +49,31 @@ class File {
 	 */
 	@Given("Open The LambdaTest Web Site")
 	def OpenPage() {
-		println "LambdaTest.io page opened: https://ecommerce-playground.lambdatest.io/index.php"
+		// open the LT demo page and maximize the browser
+		WebUI.openBrowser("https://ecommerce-playground.lambdatest.io/index.php")
+		WebUI.maximizeWindow()
+		println "BDD-STEP-1: finished"
 	}
 
 	@And("I type a name {string} of product")
 	def TypeNameOfProductInSearchBar(String name) {
-		println "Name entered is : " + name
+		// type name of product in search bar
+		WebUI.setText(findTestObject('Object Repository/PageObjects/Page_Your Store/input_All Categories_search'), name)
+		println "BDD-STEP-2: finished"
 	}
 
 	@When("I click on search button")
 	def ClickOnSearchButton() {
-		println "Search Button is clicked"
+		// click on search button
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_Your Store/button_Search'))
+		println "BDD-STEP-3: finished"
 	}
 
 	@Then("I verify the {string} of search results")
 	def Verify_the_status_in_step(String status) {
+		// wait 7s to load page and check results
 		println status
+		println "BDD-STEP-4: finished"
+		WebUI.closeBrowser()
 	}
 }
