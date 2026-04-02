@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Payer maintenant</name>
+   <tag></tag>
+   <elementGuidId>c0e9f6b7-32fc-450d-9273-3c7ac470135b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Payer maintenant&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>40f41858-7698-45dc-b6d7-7539548e2b65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>541694c0-8bee-4779-ba96-d9b839bd1747</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lg:w-auto w-full h-[51px] bg-[linear-gradient(91.16deg,theme(colors.primary)_26.21%,color-mix(in_oklab,theme(colors.primary),black_15%)_86.49%)] text-accent lg:text-base text-sm lg:rounded-xl rounded-md justify-center items-center text-center first-letter:capitalize hover:brightness-110 inline-flex py-2 lg:px-4 opacity-100</value>
+      <webElementGuid>000b68cf-674b-404f-8fc3-5725bcf2fc3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Payer maintenant</value>
+      <webElementGuid>9b89c706-24b4-4207-abd9-b910c7e43801</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/section[@class=&quot;lg:block hidden&quot;]/div[@class=&quot;flex justify-center lg:items-start items-center xl:gap-6 lg:gap-4 gap-6 lg:flex-row flex-col lg:mx-28 mx-1&quot;]/div[@class=&quot;w-full flex-1 flex flex-col justify-center items-center xl:w-[612px] lg:w-[560px]&quot;]/div[@class=&quot;w-full container rounded-2xl flex flex-col bg-slate-100 shadow-[0px_0px_24px_-4px_rgba(0,0,0,0.16)] lg:mx-6 px-6 py-6 my-8 xl:w-[610px] lg:w-[495px] overflow-hidden&quot;]/div[@class=&quot;w-full rounded-xl shadow-[0px_0px_24px_-4px_rgba(0,0,0,0.16)] py-8 px-2 my-8&quot;]/div[@class=&quot;MuiBox-root css-mjx6sk&quot;]/div[@class=&quot;relative&quot;]/div[@class=&quot;w-full flex justify-center items-center py-4&quot;]/button[@class=&quot;lg:w-auto w-full h-[51px] bg-[linear-gradient(91.16deg,theme(colors.primary)_26.21%,color-mix(in_oklab,theme(colors.primary),black_15%)_86.49%)] text-accent lg:text-base text-sm lg:rounded-xl rounded-md justify-center items-center text-center first-letter:capitalize hover:brightness-110 inline-flex py-2 lg:px-4 opacity-100&quot;]</value>
+      <webElementGuid>6eef73b8-f1ec-4f18-b9f6-ea4930eb8694</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>2250cc71-5d5a-409e-9ee5-35eb99950c6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ajouter une carte de crédit'])[1]/following::button[1]</value>
+      <webElementGuid>67bdba5f-d908-4d92-8f29-89a2583de6f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ou'])[1]/following::button[2]</value>
+      <webElementGuid>b139a29b-17b7-4661-b04e-fda2ff465b43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paiement 100% sécurisé via SSL et 3D Secure. Vos informations bancaires sont protégées.'])[1]/preceding::button[1]</value>
+      <webElementGuid>2d87d557-3747-46e1-beb4-3ade8817fc40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Paiement sécurisé'])[2]/preceding::button[2]</value>
+      <webElementGuid>97c35eb0-6707-480c-87f1-4497d3ba75ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Payer maintenant']/parent::*</value>
+      <webElementGuid>542c9897-ff38-4a8c-b833-3bdd607f2c83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>bbce5bcd-ccb2-4400-bc33-706e53021566</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Payer maintenant' or . = 'Payer maintenant')]</value>
+      <webElementGuid>d854825a-cae6-4f44-99f2-b2535a237ea9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
