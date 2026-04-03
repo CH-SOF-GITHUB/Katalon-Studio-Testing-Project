@@ -87,6 +87,13 @@ class AchatBC1Steps {
 		println "STEP-BDD-6: finished"
 	}
 
+	@When("Choose the amount of your gift card 100 CHF")
+	def choose_the_amount_of_your_gift_card_100_CHF() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_100'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_100'))
+		println "STEP-BDD-6: finished"
+	}
+
 	@And("I click on Next Btn")
 	def i_click_on_Next_Btn() {
 		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_Suivant'), 15)
@@ -117,6 +124,7 @@ class AchatBC1Steps {
 		WebUI.delay(7)
 		def ActuelURL = WebUI.getUrl()
 		WebUI.verifyEqual(ActuelURL, "https://demotenant.playpro.fr/Panier")
+		WebUI.closeBrowser()
 		println "STEP-BDD-10: finished"
 	}
 }

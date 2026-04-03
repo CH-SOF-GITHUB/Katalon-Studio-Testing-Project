@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_offrir une activit_border-2 border-p_ff54a8</name>
+   <tag></tag>
+   <elementGuidId>c756dac7-b5d7-42e7-b61a-4de4f67ec1b7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.border-2.border-primary.rounded.w-5.h-5.bg-white.flex.justify-center.items-center.cursor-pointer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[12]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>.border-2 >> nth=0</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>26cfdd87-1762-428f-bd7e-15cd1df92164</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b4953670-fafd-477b-bc1b-5747291f99b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>border-2 border-primary rounded w-5 h-5 bg-white flex justify-center items-center cursor-pointer</value>
+      <webElementGuid>5d2885fd-b112-414b-9f10-4d2e008cd5fc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;headlessui-tabs-panel-:r6:&quot;)/form[1]/div[@class=&quot;flex justify-start my-2&quot;]/div[@class=&quot;bg-[#FCFBFF] sm:rounded-xl flex items-center py-1 justify-between rounded-2xl gap-2 md:gap-4&quot;]/button[@class=&quot;border-2 border-primary rounded w-5 h-5 bg-white flex justify-center items-center cursor-pointer&quot;]</value>
+      <webElementGuid>063b4466-b177-425e-a9d6-585fd974bb1b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>07a7f5f4-d2b9-44f9-b7d3-de9e7224fce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='headlessui-tabs-panel-:r6:']/form/div[2]/div/button</value>
+      <webElementGuid>5688f730-a051-41fc-b7f5-40885f74c20e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='offrir une activité'])[1]/following::button[6]</value>
+      <webElementGuid>cb1387cc-38d9-4f66-adc2-d42ee237f4fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Offrir une carte cadeau'])[2]/following::button[7]</value>
+      <webElementGuid>d1a8f869-9e46-4d9d-8148-3cd4b048f3da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Envoyer une carte cadeau à un ou une ami(e) ?'])[1]/preceding::button[2]</value>
+      <webElementGuid>1390effa-c29c-4e25-8b5f-fc3de03c0579</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suivant'])[1]/preceding::button[2]</value>
+      <webElementGuid>bff32517-babe-4682-ad05-e6b50cc5ea49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[2]/div/button</value>
+      <webElementGuid>54a4e185-90bb-4b67-b1fb-dd102c1d29fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>eabd1e41-93a7-4563-8444-4a6e2c45aebe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

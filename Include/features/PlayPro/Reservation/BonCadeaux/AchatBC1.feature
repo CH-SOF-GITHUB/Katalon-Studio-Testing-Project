@@ -34,3 +34,12 @@ Feature: PlayPro - Buy A New Voucher in Web Site FO
     And I click on bank card stripe in cart
     When I click on payment btn
     Then Check that Voucher was buying successfully
+
+  @tag2
+  Scenario: Buy Gift Voucher 100 CHF
+    Given Click on Btn Offer a gift voucher
+    When Choose the amount of your gift card 100 CHF
+    And I click on Next Btn
+    And I click on bank card stripe in cart
+    When I click on payment btn
+    Then Check that Voucher was buying successfully
