@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_250CHF</name>
+   <name>button_250</name>
    <tag></tag>
    <elementGuidId>1305eb08-6cc1-4f6b-8e87-4c39e4bdb2ae</elementGuidId>
    <selectorCollection>
@@ -11,7 +11,6 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

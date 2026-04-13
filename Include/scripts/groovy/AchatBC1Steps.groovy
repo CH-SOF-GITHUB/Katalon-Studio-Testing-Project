@@ -82,8 +82,8 @@ class AchatBC1Steps {
 
 	@When("Choose the amount of your gift card 250 CHF")
 	def choose_the_amount_of_your_gift_card_250_CHF() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_250CHF'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_250CHF'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_250'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_250'))
 		println "STEP-BDD-6: finished"
 	}
 

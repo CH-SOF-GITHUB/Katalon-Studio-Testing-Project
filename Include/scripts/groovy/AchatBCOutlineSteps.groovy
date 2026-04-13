@@ -44,23 +44,80 @@ import io.cucumber.java.en.When
 
 
 class AchatBCOutlineSteps {
- /**
-* The step definitions below match with Katalon sample Gherkin steps
-*/
-@Given("I want to write a step with {string}")
-def I_want_to_write_a_step_with_name(String name) {
-	println name
-}
+	/**
+	 * The step definitions below match with Katalon sample Gherkin steps
+	 */
+	@Given("I navigate the login page")
+	def i_open_login_page() {
+		WebUI.openBrowser("https://demotenant.playpro.fr/connexion")
+		WebUI.maximizeWindow()
+		WebUI.click(findTestObject('Object Repository/Cookies/button_Accepter'))
+		println "STEP-BDD-1: finished"
+	}
 
-@When("I check for the {int} in step")
-def I_check_for_the_value_in_step(int value) {
-	println value
-}
+	@And("I type the email {string}")
+	void i_type_address_email(String email) {
+		WebUI.setText(findTestObject('Object Repository/FO_Login/input__email'), email)
+		println "STEP-BDD-2: finished"
+	}
 
-@Then("I verify the {string} in step")
-def I_verify_the_status_in_step(String status) {
-	println status
-}
+	@And("I type the pwd {string}")
+	void i_type_password(String password) {
+		WebUI.setText(findTestObject('Object Repository/FO_Login/input__password'), password)
+		println "STEP-BDD-3: finished"
+	}
 
- 
+	@When("I click on BTNLogin")
+	void i_click_on_LoginBtn() {
+		WebUI.click(findTestObject('Object Repository/FO_Login/button_Me connecter'))
+		println "STEP-BDD-4: finished"
+	}
+
+	@Given("Click on Button Offer a gift voucher")
+	def click_on_Btn_Offer_a_gift_voucher() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_playprosite/a_Offrir un bon cadeau'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_playprosite/a_Offrir un bon cadeau'))
+		println "STEP-BDD-5: finished"
+	}
+
+	@When("Choose the amount of your gift card {int} CHF")
+	def choose_the_amount_of_your_gift_card_amount_CHF(int amount) {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_'+amount), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_'+amount))
+		println "STEP-BDD-6: finished"
+	}
+
+	@And("I click on Next Button")
+	def i_click_on_Next_Btn() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_Suivant'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_Suivant'))
+		println "STEP-BDD-7: finished"
+	}
+
+	@And("I click on bank card stripe")
+	def i_click_on_bank_card_stripe_in_cart() {
+		// wait for 7s
+		WebUI.delay(7)
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_Carte bancaire'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_Carte bancaire'))
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_xxxxxxxxxxxx42421126'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_xxxxxxxxxxxx42421126'))
+		println "STEP-BDD-8: finished"
+	}
+
+	@When("I click on payment button")
+	def i_click_on_payment_btn() {
+		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/button_Payer maintenant'), 15)
+		WebUI.click(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/button_Payer maintenant'))
+		println "STEP-BDD-9: finished"
+	}
+
+	@Then("Check that Voucher was successfully buying")
+	def check_that_Voucher_was_buying_successfully() {
+		WebUI.delay(7)
+		def ActuelURL = WebUI.getUrl()
+		WebUI.verifyEqual(ActuelURL, "https://demotenant.playpro.fr/Panier")
+		WebUI.closeBrowser()
+		println "STEP-BDD-10: finished"
+	}
 }

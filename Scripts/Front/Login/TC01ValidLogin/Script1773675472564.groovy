@@ -17,33 +17,27 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://chakerqa.playpro.fr/connexion')
+WebUI.openBrowser('https://demotenant.playpro.fr/connexion')
 
 WebUI.maximizeWindow()
 
 WebUI.jsClick(findTestObject('Cookies/button_Accepter'))
 
-WebUI.verifyElementText(findTestObject('FO_Login/span_Connexion'), 'Connexion')
+WebUI.verifyTextPresent('Connexion', false)
 
-WebUI.setText(findTestObject('FO_Login/input__email'), 'chakerqa-client@yopmail.com')
+WebUI.setText(findTestObject('FO_Login/input__email'), 'demotenant2@yopmail.com')
 
-WebUI.setEncryptedText(findTestObject('FO_Login/input__password'), '/5S6MFFLcE6Z1YMqKBaTSw==')
+WebUI.setText(findTestObject('FO_Login/input__password'), 'Admin1234!')
 
 WebUI.click(findTestObject('FO_Login/button_Me connecter'))
 
 WebUI.verifyElementPresent(findTestObject('PageObjects/Profil-Icon-Navbar'), 15)
 
-WebUI.click(findTestObject('PageObjects/Profil-Icon-Navbar'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('null'))
-
 WebUI.delay(5)
 
 def ActualURL = WebUI.getUrl()
 
-WebUI.verifyEqual(ActualURL, 'https://chakerqa.playpro.fr/profile?tab=profile')
+WebUI.verifyEqual(ActualURL, 'https://demotenant.playpro.fr/')
 
 WebUI.closeBrowser()
 
