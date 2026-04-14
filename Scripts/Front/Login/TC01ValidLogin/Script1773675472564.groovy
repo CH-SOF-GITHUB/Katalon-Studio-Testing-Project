@@ -39,5 +39,3 @@ def ActualURL = WebUI.getUrl()
 
 WebUI.verifyEqual(ActualURL, 'https://demotenant.playpro.fr/')
 
-WebUI.closeBrowser()
-

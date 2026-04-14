@@ -17,6 +17,9 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+import demoPackage.TestUtils
+
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable as GlobalVariable
@@ -47,42 +50,31 @@ class NewTestListener {
 	 */
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+	
 		KeywordUtil.logInfo("END TEST CASE: " + testCaseContext.getTestCaseId())
 		KeywordUtil.logInfo("STATUS: " + testCaseContext.getTestCaseStatus())
-		WebDriver driver = DriverFactory.getWebDriver(false)
-        boolean passed = "PASSED".equalsIgnoreCase(testCaseContext.getTestCaseStatus())
-        String status = passed ? "passed" : "failed"
-
-        String sessionId = DriverFactory.getWebDriver().getSessionId().toString()
-        String username = "chakerlt1"
-        String accessKey = "LT_CbXl7y5tdDqGXPrCFWXXcWBzIuJVPrjEeVvZvOmdFTGBs69"
-
-        if (!username || !accessKey) {
-            KeywordUtil.logWarning("LambdaTest credentials not provided.")
-            return
-        }
-
-        String url = "https://api.lambdatest.com/automation/api/v1/sessions/${sessionId}"
-        Map<String, Object> body = [
-                status: status,
-                remark: "Test case ${testCaseContext.getTestCaseId()} completed with status: ${status}"
-        ]
-
-        try {
-            WS.sendRequest(findTestObject('Object Repository/UpdateLambdaTestStatus', [
-                    ('url') : url,
-                    ('username') : username,
-                    ('accessKey') : accessKey,
-                    ('body') : body
-            ]))
-            KeywordUtil.logInfo("LambdaTest status updated to: ${status}")
-        } catch (Exception e) {
-            KeywordUtil.logWarning("Failed to update LambdaTest status: ${e.message}")
-        } finally {
-            try {
-                DriverFactory.getWebDriver().quit()
-            } catch (Exception ignore) {}
-        }
+	
+		WebDriver driver = null
+	
+		try {
+			driver = DriverFactory.getWebDriver()
+	
+			if (driver == null) {
+				KeywordUtil.markWarning("WebDriver is not available.")
+				return
+			}
+	
+			boolean testStatus = "PASSED".equalsIgnoreCase(testCaseContext.getTestCaseStatus())
+	
+			// 👉 Update LambdaTest BEFORE closing browser
+			TestUtils.tearDown(driver, testCaseContext.getTestCaseId(), testStatus)
+	
+		} catch (Exception e) {
+			KeywordUtil.markWarning("Error in @AfterTestCase: " + e.message)
+		} finally {
+			// ✅ CLOSE browser here (not in test case)
+			WebUI.closeBrowser()
+		}
 	}
 
 	/**
