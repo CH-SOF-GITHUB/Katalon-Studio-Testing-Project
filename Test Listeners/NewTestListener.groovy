@@ -1,7 +1,11 @@
+import org.openqa.selenium.JavascriptExecutor
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import org.openqa.selenium.WebDriver
 
 import com.github.fge.jsonschema.library.Keyword
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
@@ -11,6 +15,7 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
@@ -28,6 +33,8 @@ class NewTestListener {
 	 * Executes before every test case starts.
 	 * @param testCaseContext related information of the executed test case.
 	 */
+
+
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
 		KeywordUtil.logInfo("START TEST CASE: " + testCaseContext.getTestCaseId())
@@ -42,6 +49,40 @@ class NewTestListener {
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
 		KeywordUtil.logInfo("END TEST CASE: " + testCaseContext.getTestCaseId())
 		KeywordUtil.logInfo("STATUS: " + testCaseContext.getTestCaseStatus())
+		WebDriver driver = DriverFactory.getWebDriver(false)
+        boolean passed = "PASSED".equalsIgnoreCase(testCaseContext.getTestCaseStatus())
+        String status = passed ? "passed" : "failed"
+
+        String sessionId = DriverFactory.getWebDriver().getSessionId().toString()
+        String username = "chakerlt1"
+        String accessKey = "LT_CbXl7y5tdDqGXPrCFWXXcWBzIuJVPrjEeVvZvOmdFTGBs69"
+
+        if (!username || !accessKey) {
+            KeywordUtil.logWarning("LambdaTest credentials not provided.")
+            return
+        }
+
+        String url = "https://api.lambdatest.com/automation/api/v1/sessions/${sessionId}"
+        Map<String, Object> body = [
+                status: status,
+                remark: "Test case ${testCaseContext.getTestCaseId()} completed with status: ${status}"
+        ]
+
+        try {
+            WS.sendRequest(findTestObject('Object Repository/UpdateLambdaTestStatus', [
+                    ('url') : url,
+                    ('username') : username,
+                    ('accessKey') : accessKey,
+                    ('body') : body
+            ]))
+            KeywordUtil.logInfo("LambdaTest status updated to: ${status}")
+        } catch (Exception e) {
+            KeywordUtil.logWarning("Failed to update LambdaTest status: ${e.message}")
+        } finally {
+            try {
+                DriverFactory.getWebDriver().quit()
+            } catch (Exception ignore) {}
+        }
 	}
 
 	/**
