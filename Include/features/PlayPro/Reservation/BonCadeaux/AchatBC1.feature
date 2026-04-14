@@ -29,7 +29,7 @@ Feature: PlayPro - Buy A New Voucher in Web Site FO
   @tag1
   Scenario: Buy Gift Voucher 250 CHF
     Given Click on Btn Offer a gift voucher
-    When Choose the amount of your gift card 250 CHF
+    When Choose the amount of your gift card amount 250 CHF
     And I click on Next Btn
     And I click on bank card stripe in cart
     When I click on payment btn
@@ -38,7 +38,7 @@ Feature: PlayPro - Buy A New Voucher in Web Site FO
   @tag2
   Scenario: Buy Gift Voucher 100 CHF
     Given Click on Btn Offer a gift voucher
-    When Choose the amount of your gift card 100 CHF
+    When Choose the amount of your gift card amount 100 CHF
     And I click on Next Btn
     And I click on bank card stripe in cart
     When I click on payment btn

@@ -17,4 +17,7 @@ dependencies {
   // compile 'io.rest-assured:json-path:3.2.0'
   // JSON Schema Validation
   // compile 'io.rest-assured:json-schema-validator:3.2.0'
+  testImplementation 'io.cucumber:cucumber-java:7.14.0'
+  testImplementation 'io.cucumber:cucumber-junit:7.14.0'
+  testImplementation 'junit:junit:4.13.2'
 }
