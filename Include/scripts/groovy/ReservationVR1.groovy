@@ -2,6 +2,7 @@ import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static org.junit.Assert.assertEquals
 
 import java.time.Duration
 
@@ -63,8 +64,8 @@ class ReservationVR1 {
 			WebUI.openBrowser("https://demotenant.playpro.fr/connexion")
 			WebUI.maximizeWindow()
 			TestObject BtnCookieAccept = findTestObject('Object Repository/Cookies/button_Accepter')
-			WebUI.waitForElementVisible(BtnCookieAccept, 20)
-			WebUI.waitForElementClickable(BtnCookieAccept, 20)
+			WebUI.waitForElementVisible(BtnCookieAccept, 25)
+			WebUI.waitForElementClickable(BtnCookieAccept, 25)
 			WebUI.click(BtnCookieAccept)
 			println "STEP-BDD-1: finished"
 		} catch(NoSuchElementException e) {
@@ -77,7 +78,7 @@ class ReservationVR1 {
 	void i_type_address_email_value(String email) {
 		try {
 			TestObject EmailField = findTestObject('Object Repository/FO_Login/input__email')
-			WebUI.waitForElementVisible(EmailField, 20)
+			WebUI.waitForElementVisible(EmailField, 25)
 			WebUI.setText(EmailField, email)
 			println "STEP-BDD-2: finished"
 		} catch(NoSuchElementException e) {
@@ -90,7 +91,7 @@ class ReservationVR1 {
 	void i_type_password_value(String password) {
 		try {
 			TestObject PwdField = findTestObject('Object Repository/FO_Login/input__password')
-			WebUI.waitForElementVisible(PwdField, 20)
+			WebUI.waitForElementVisible(PwdField, 25)
 			WebUI.setText(PwdField, password)
 			println "STEP-BDD-3: finished"
 		} catch(NoSuchElementException e) {
@@ -103,9 +104,10 @@ class ReservationVR1 {
 	void i_click_on_LoginButton() {
 		try {
 			TestObject LoginBtn = findTestObject('Object Repository/FO_Login/button_Me connecter')
-			WebUI.waitForElementVisible(LoginBtn, 20)
-			WebUI.waitForElementClickable(LoginBtn, 20)
+			WebUI.waitForElementVisible(LoginBtn, 25)
+			WebUI.waitForElementClickable(LoginBtn, 25)
 			WebUI.click(LoginBtn)
+			WebUI.waitForPageLoad(15)
 			println "STEP-BDD-4: finished"
 		} catch(NoSuchElementException e) {
 			e.fillInStackTrace()
@@ -116,11 +118,11 @@ class ReservationVR1 {
 	@Given("I open discover reservation page")
 	void i_open_discover_reservation_page() {
 		try {
-			WebUI.waitForPageLoad(5)
 			TestObject LinkReservation = findTestObject('Object Repository/PageObjects/Page_DEMO TENANT/Link_Rserver_Page_Home')
-			WebUI.waitForElementVisible(LinkReservation, 20)
-			WebUI.waitForElementClickable(LinkReservation, 20)
+			WebUI.waitForElementVisible(LinkReservation, 25)
+			WebUI.waitForElementClickable(LinkReservation, 25)
 			WebUI.click(LinkReservation)
+			WebUI.waitForPageLoad(7)
 			println "STEP-BDD-5: finished"
 		} catch(NoSuchElementException e) {
 			e.fillInStackTrace()
@@ -132,8 +134,8 @@ class ReservationVR1 {
 	void i_click_on_exp_vr_card() {
 		try {
 			TestObject CardVr = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/h3_Vr Party Test')
-			WebUI.waitForElementVisible(CardVr, 20)
-			WebUI.waitForElementClickable(CardVr, 20)
+			WebUI.waitForElementVisible(CardVr, 25)
+			WebUI.waitForElementClickable(CardVr, 25)
 			WebUI.click(CardVr)
 			println "STEP-BDD-6: finished"
 		} catch(NoSuchElementException e) {
@@ -146,12 +148,12 @@ class ReservationVR1 {
 	void i_select_number_of_participants() {
 		try {
 			TestObject Select1 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/slection_Nbr_Participants')
-			WebUI.waitForElementVisible(Select1, 20)
-			WebUI.waitForElementClickable(Select1, 20)
+			WebUI.waitForElementVisible(Select1, 25)
+			WebUI.waitForElementClickable(Select1, 25)
 			WebUI.click(Select1)
 			TestObject NbrPers4 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_4 personnes')
-			WebUI.waitForElementVisible(NbrPers4, 20)
-			WebUI.waitForElementClickable(NbrPers4, 20)
+			WebUI.waitForElementVisible(NbrPers4, 25)
+			WebUI.waitForElementClickable(NbrPers4, 25)
 			WebUI.click(NbrPers4)
 			println "STEP-BDD-7: finished"
 		} catch(NoSuchElementException e) {
@@ -164,12 +166,12 @@ class ReservationVR1 {
 	void i_select_duration_by_price() {
 		try {
 			TestObject Select2 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/Slection_Duration_Exp')
-			WebUI.waitForElementVisible(Select2, 20)
-			WebUI.waitForElementClickable(Select2, 20)
+			WebUI.waitForElementVisible(Select2, 25)
+			WebUI.waitForElementClickable(Select2, 25)
 			WebUI.click(Select2)
 			TestObject Slot45Min = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_45 min')
-			WebUI.waitForElementVisible(Slot45Min, 20)
-			WebUI.waitForElementClickable(Slot45Min, 20)
+			WebUI.waitForElementVisible(Slot45Min, 25)
+			WebUI.waitForElementClickable(Slot45Min, 25)
 			WebUI.click(Slot45Min)
 			println "STEP-BDD-8: finished"
 		} catch(NoSuchElementException e) {
@@ -182,8 +184,10 @@ class ReservationVR1 {
 	void i_click_on_continue_button() {
 		try {
 			TestObject BtnContinuer = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_Continuer')
-			WebUI.waitForElementVisible(BtnContinuer, 20)
-			WebUI.waitForElementClickable(BtnContinuer, 20)
+			WebUI.waitForElementVisible(BtnContinuer, 25)
+			WebUI.waitForElementClickable(BtnContinuer, 25)
+			WebUI.click(BtnContinuer)
+			WebUI.waitForPageLoad(35)
 			println "STEP-BDD-9: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -193,6 +197,11 @@ class ReservationVR1 {
 	@When("I select time slot")
 	void i_select_time_slot() {
 		try {
+			TestObject DayOfReservation = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/p_vendredi 01 mai')
+			WebUI.waitForElementVisible(DayOfReservation, 25)
+			String Text = WebUI.getText(DayOfReservation)
+			assertEquals("vendredi 01 mai", Text)
+			println "Text : " + Text
 			println "STEP-BDD-10: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()

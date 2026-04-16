@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='headlessui-popover-button-:r22:']/div/p</value>
+         <value>(//div[@class='flex flex-row items-center justify-center gap-3'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +28,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>ddc3b15f-3fba-4ffb-964a-d63e63871357</webElementGuid>
+      <webElementGuid>f1cb0041-bcbb-46e4-b469-0ee1f1857cea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +36,7 @@
       <name>class</name>
       <type>Main</type>
       <value>cursor-pointer text-center font-poppins lg:text-base leading-4 tracking-[0%] font-normal text-sm outline-none rounded-lg text-black </value>
-      <webElementGuid>1966ec61-00a6-4977-88aa-1f4f24ac9cf8</webElementGuid>
+      <webElementGuid>9c8f4768-d455-42af-9e8b-60a93c493574</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +44,7 @@
       <name>text</name>
       <type>Main</type>
       <value>vendredi 01 mai</value>
-      <webElementGuid>55ab3a27-545e-4d31-b383-6a36fe87ed46</webElementGuid>
+      <webElementGuid>920d8884-b6ab-4b11-a1bf-2120719594bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +52,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;headlessui-popover-button-:r22:&quot;)/div[@class=&quot;flex flex-row items-center justify-center gap-3&quot;]/p[@class=&quot;cursor-pointer text-center font-poppins lg:text-base leading-4 tracking-[0%] font-normal text-sm outline-none rounded-lg text-black&quot;]</value>
-      <webElementGuid>92050624-e0bb-481b-9817-080d404bda89</webElementGuid>
+      <webElementGuid>3af97689-5737-4301-b88c-b1c8ec0ec3c3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,7 +60,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//button[@id='headlessui-popover-button-:r22:']/div/p</value>
-      <webElementGuid>c29d89f3-dc36-4cc6-8902-a2e187a16fc5</webElementGuid>
+      <webElementGuid>a487ee22-6fe3-472d-9d37-6fdf079156cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +68,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Options'])[1]/following::p[1]</value>
-      <webElementGuid>0f3a49f8-9b9b-4f89-9bf1-59d088508411</webElementGuid>
+      <webElementGuid>03a8b254-55b5-4fc0-a887-e735509de6a4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +76,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Date'])[1]/following::p[1]</value>
-      <webElementGuid>e228a6cc-c9ba-4e26-9365-764322b1f320</webElementGuid>
+      <webElementGuid>83e318f3-b84f-441d-97c3-753f66a1f60d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +84,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Vr Party Test'])[2]/preceding::p[1]</value>
-      <webElementGuid>ce127ed2-7a73-41b3-8ed7-a3bd84747839</webElementGuid>
+      <webElementGuid>fb1e1d5d-668c-4c25-a785-79f7a72f467b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Suivant'])[1]/preceding::p[1]</value>
-      <webElementGuid>12c0a417-c9fa-45b3-9700-3f2d8a49e7db</webElementGuid>
+      <webElementGuid>84cb0e7a-a44d-490a-9043-3c374d1b7756</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='vendredi 01 mai']/parent::*</value>
-      <webElementGuid>60f2cf0d-943d-4299-8d49-0addb4da739e</webElementGuid>
+      <webElementGuid>47c40828-4af8-4e40-a4e5-ebffd7bc0500</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +108,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//p</value>
-      <webElementGuid>f5c12e48-e073-4b33-951a-c60934383eda</webElementGuid>
+      <webElementGuid>7ed6fddb-74b2-49c6-ad8d-b829eede5bd4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +116,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'vendredi 01 mai' or . = 'vendredi 01 mai')]</value>
-      <webElementGuid>3d8fe382-6545-4edf-9f26-d1c8db8dec0f</webElementGuid>
+      <webElementGuid>22b2d373-b0a0-42c5-b1fe-9adad5248964</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
