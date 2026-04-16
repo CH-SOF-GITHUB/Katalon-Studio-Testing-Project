@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Confirmer ma rservation- 438Soit 109.5pers</name>
+   <tag></tag>
+   <elementGuidId>46d4dcc2-dfbf-4270-b359-86be9322c0a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Confirmer ma réservation- 438€ Soit 109.5€/pers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f9ebd9f0-ba54-4626-8bb4-b58313f9118c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>122df47b-9547-452c-adae-5b73b6a4aaee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>opacity-100 w-full lg:w-1/3 h-[60px] rounded-md px-[15px] py-[7px] gap-[10px] opacity-100 font-poppins font-medium text-[15px] leading-[21px] tracking-[0px] text-center bg-primary text-accent</value>
+      <webElementGuid>f62758c1-875f-40c7-84c3-e3b14fb750ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirmer ma réservation- 438€Soit 109.5€/pers
+              </value>
+      <webElementGuid>4dfddc8a-cad9-424b-a5e9-9f7ab12731f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/div[@id=&quot;containerId&quot;]/div[@class=&quot;w-full lg:px-[9%]&quot;]/div[@class=&quot;w-full flex flex-col justify-between items-center gap-10 lg:gap-8 px-[18px] lg:py-4&quot;]/div[@class=&quot;w-full flex flex-col items-center justify-center gap-8 lg:flex-row-reverse lg:gap-12&quot;]/button[@class=&quot;opacity-100 w-full lg:w-1/3 h-[60px] rounded-md px-[15px] py-[7px] gap-[10px] opacity-100 font-poppins font-medium text-[15px] leading-[21px] tracking-[0px] text-center bg-primary text-accent&quot;]</value>
+      <webElementGuid>06e6faa0-20d6-4f6c-9302-f3e7ab692d04</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>c86cbbb3-9116-448b-a5fa-c3d28aebb611</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='containerId']/div[3]/div/div/button</value>
+      <webElementGuid>0083cfa5-54b6-4b15-8a5a-e4b5d2205919</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suivant'])[1]/following::button[1]</value>
+      <webElementGuid>1cda7876-b52d-4b6a-a1bd-5126e96439dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vr Party Test'])[2]/following::button[4]</value>
+      <webElementGuid>32be45f3-b98f-45f9-9fb6-0cd6d099ccb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Retour'])[1]/preceding::button[1]</value>
+      <webElementGuid>36b52844-c269-4310-a135-86a189c6d547</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Confirmer']/parent::*</value>
+      <webElementGuid>7cea3ec4-c2c0-43c6-b1ab-615f2cad3dc2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button</value>
+      <webElementGuid>7980bdf1-fbcf-45dd-bb8a-d7e253cf5e6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Confirmer ma réservation- 438€Soit 109.5€/pers
+              ' or . = 'Confirmer ma réservation- 438€Soit 109.5€/pers
+              ')]</value>
+      <webElementGuid>82ec4b66-c0a3-4511-8a3a-fbd244a2e9e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

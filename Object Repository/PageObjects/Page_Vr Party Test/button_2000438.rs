@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_2000438</name>
+   <tag></tag>
+   <elementGuidId>0f081803-d774-4a44-ace2-5d683e40f6b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;20:00 438€&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>ea5ab7eb-f3bc-4cb3-8a47-448527115d0b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8e4056d2-d606-4030-a9cc-9bb44b0b6c65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full relative h-[60px] overflow-x-visible flex items-center justify-center rounded-[10px] 
+        bg-[#CACACA50] text-black </value>
+      <webElementGuid>d8ca5bc7-b792-4224-90c2-4d3d64145ce3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20:00438€</value>
+      <webElementGuid>b937c694-2da5-4955-ac8a-ac1bf585249b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;container-id&quot;)/div[@class=&quot;w-full md:block&quot;]/div[@class=&quot;grid-cols-[repeat(auto-fit,minmax(80px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(80px,80px))] lg:gap-2 grid gap-y-3 justify-center gap-x-1&quot;]/div[@class=&quot;relative&quot;]/button[@class=&quot;w-full relative h-[60px] overflow-x-visible flex items-center justify-center rounded-[10px] 
+        bg-[#CACACA50] text-black&quot;]</value>
+      <webElementGuid>2e5c8ab5-f267-4ed6-b385-faaffe29d2ca</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>7463268c-83ad-44a4-b356-216297ea9e6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container-id']/div[3]/div/div/button</value>
+      <webElementGuid>e50520c6-b2b4-4615-b38d-66a123a1814e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vr Party Test'])[2]/following::button[1]</value>
+      <webElementGuid>5943bb4e-efb3-422e-bb1c-d112146099d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Options'])[1]/following::button[4]</value>
+      <webElementGuid>0116e74b-bbf4-45c2-8942-df3d1f76bd6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Suivant'])[1]/preceding::button[2]</value>
+      <webElementGuid>91d7b67f-3a0b-45ed-a289-4f7080f14f1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmer ma réservation'])[1]/preceding::button[3]</value>
+      <webElementGuid>5646bfe2-2a10-4237-855f-09976fe079d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div/div/button</value>
+      <webElementGuid>2cd73052-e128-4457-958b-bfea3e999f92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '20:00438€' or . = '20:00438€')]</value>
+      <webElementGuid>b980e925-f3c0-4e80-89a7-e1d100343e4c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

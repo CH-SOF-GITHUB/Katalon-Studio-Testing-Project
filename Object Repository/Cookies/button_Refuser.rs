@@ -6,12 +6,12 @@
    <elementGuidId>c813674c-c34e-4d29-9e6a-b3716dc08769</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepter'])[1]/following::button[1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.c15t-button-YKOgW.c15t-button-small-n5LJg.c15t-button-neutral-stroke-EAzCC</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@class='c15t-button-YKOgW c15t-button-small-n5LJg c15t-button-neutral-stroke-EAzCC'][normalize-space()='Refuser'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4934d7c7-0fa3-4a56-aa4d-797a6e0cd18a</webElementGuid>
+      <webElementGuid>b57e0871-c6e8-431b-9d95-b941e79d7ac6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>c15t-button-YKOgW c15t-button-small-n5LJg c15t-button-neutral-stroke-EAzCC</value>
-      <webElementGuid>222ecf41-1a24-473c-9b46-bb4dc7cc742d</webElementGuid>
+      <webElementGuid>73204f28-ecba-4319-a7bf-6e58c1d7c8fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>data-testid</name>
       <type>Main</type>
       <value>cookie-banner-reject-button</value>
-      <webElementGuid>0f29afd7-045b-4535-be55-6b1e1c833fa3</webElementGuid>
+      <webElementGuid>3959c79c-cda4-4669-9c1b-be230f736fcc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Refuser</value>
-      <webElementGuid>3cf44941-c9ab-4445-ab0c-cac479899b1c</webElementGuid>
+      <webElementGuid>3b53162d-c9a5-42f4-8679-ecfc432cbef3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[@class=&quot;c15t-root-tnx7V c15t-bottomLeft-wv7ez c15t-bannerVisible-bty7Y&quot;]/div[@class=&quot;c15t-card-MOqQY&quot;]/div[@class=&quot;banner-header banner-header banner-header c15t-header-X6bpE&quot;]/div[@class=&quot;desktop-footer desktop-footer desktop-footer c15t-footer-wS150&quot;]/div[@class=&quot;c15t-footerSubGroup-HbTp3&quot;]/button[@class=&quot;c15t-button-YKOgW c15t-button-small-n5LJg c15t-button-neutral-stroke-EAzCC&quot;]</value>
-      <webElementGuid>dda23690-0b0e-40c3-be3f-9072e2d27796</webElementGuid>
+      <webElementGuid>a2c7b4d5-e890-44d2-9d51-807ce0ba8d97</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepter'])[1]/following::button[1]</value>
-      <webElementGuid>201a1846-1bdc-4634-ba34-c22b4e1aed98</webElementGuid>
+      <webElementGuid>a1a1b16c-c327-451f-95d5-a9c72444d804</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='En savoir plus.'])[1]/following::button[2]</value>
-      <webElementGuid>a1d1d45f-4f20-4798-8e11-2d16f3a01af4</webElementGuid>
+      <webElementGuid>92d5578f-a26e-46e5-97fb-b581c0211492</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Préférences'])[1]/preceding::button[1]</value>
-      <webElementGuid>4c1ffae2-52d3-48c2-842b-fce094cb4370</webElementGuid>
+      <webElementGuid>7fe3926a-a03b-49d8-9ba9-7b0fc8e506a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accepter'])[2]/preceding::button[2]</value>
-      <webElementGuid>ad4c20c4-aeb0-4467-b54b-d0a0d0f1b3b8</webElementGuid>
+      <webElementGuid>6fe46407-be93-46e6-98a2-aa5dfe4b3b58</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Refuser']/parent::*</value>
-      <webElementGuid>191f2dbd-40fc-4981-93ad-66c4ab034254</webElementGuid>
+      <webElementGuid>930ce59c-80f2-41fa-8b1f-4a6146060c72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>b43f4a9b-7e07-4e1c-836b-8c9811e7acfa</webElementGuid>
+      <webElementGuid>6cafa579-4b4c-4f7f-bf65-e67e51123cd3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = 'Refuser' or . = 'Refuser')]</value>
-      <webElementGuid>dc78e25c-5bc7-4758-a670-fea5c5e0cc8d</webElementGuid>
+      <webElementGuid>51ebcc11-eed4-4c6f-a311-ef5f36d52836</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

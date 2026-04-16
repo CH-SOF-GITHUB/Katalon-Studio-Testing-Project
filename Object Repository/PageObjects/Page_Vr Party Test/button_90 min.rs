@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_90 min</name>
+   <tag></tag>
+   <elementGuidId>4a3d19d1-88ee-4350-b67b-60345caacfa4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[14]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;90 min&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>26a9a80f-1f09-4a61-b5ed-1403aed0a031</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d2f4cf47-3ab0-40c2-99f8-9b5da095ce8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full text-black text-left p-2 text-sm cursor-pointer hover:bg-slate-100 bg-white</value>
+      <webElementGuid>512cd36e-df85-4f04-a7b3-32fc8e8dd237</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>90 min</value>
+      <webElementGuid>bc2115e9-d1a0-4d38-bbde-a9c07c9bf549</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/div[@id=&quot;containerId&quot;]/div[@class=&quot;w-full lg:px-[9%]&quot;]/div[@id=&quot;container-id&quot;]/div[@id=&quot;container-id&quot;]/div[@class=&quot;w-full my-4 lg:my-0&quot;]/div[@class=&quot;relative w-full&quot;]/div[@class=&quot;w-auto flex items-center justify-bewteen&quot;]/div[@class=&quot;w-full relative text-left&quot;]/div[@class=&quot;block absolute z-[9999] w-full bg-white border border-solid w-full rounded-xl border border-primary lg:py-5 border-[var(--neutral-gray)] py-2 max-h-96 overflow-y-auto [&amp;::-webkit-scrollbar]:block lg:[&amp;::-webkit-scrollbar]:w-[0.375rem] [&amp;::-webkit-scrollbar]:w-1 [&amp;::-webkit-scrollbar]:bg-white [&amp;::-webkit-scrollbar]:rounded-xl [&amp;::-webkit-scrollbar-thumb]:bg-primary [&amp;::-webkit-scrollbar-thumb]:rounded-xl&quot;]/div[@class=&quot;bg-white hover:bg-slate-100&quot;]/button[@class=&quot;w-full text-black text-left p-2 text-sm cursor-pointer hover:bg-slate-100 bg-white&quot;]</value>
+      <webElementGuid>88ad39b3-41d0-4003-a10c-00c0c9f253c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[14]</value>
+      <webElementGuid>f63ed637-6a26-4923-aa36-d730753080f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container-id']/div[2]/div/div/div/div/div[2]/button</value>
+      <webElementGuid>27ff7d4a-9fcf-477a-bb4f-1fd97b1f3631</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sélectionner une formule'])[1]/following::button[2]</value>
+      <webElementGuid>5e4b723a-97ff-4cc2-bcb9-3cadf99c8e37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::button[3]</value>
+      <webElementGuid>a8253f7c-d34f-4bd4-8f48-496ff956ab93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ce que comprend votre réservation'])[1]/preceding::button[2]</value>
+      <webElementGuid>4fc50b54-f644-42ab-bdbe-daea61a5d9a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='90 min']/parent::*</value>
+      <webElementGuid>300db354-2e5d-4d2b-8b73-f992e34453b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div[2]/button</value>
+      <webElementGuid>5aa7d126-86f7-415f-b775-dd4599ce6d26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '90 min' or . = '90 min')]</value>
+      <webElementGuid>cff41c6e-3761-4933-8a9f-779b53f817e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

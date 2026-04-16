@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_9 personnes</name>
+   <tag></tag>
+   <elementGuidId>b7aed25d-31f5-45c8-8eb5-a6f7c9b99259</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[10]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;9 personnes&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>2ac4804f-5557-4970-93e2-4c5208ae0fc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f8a7f2dd-b0e4-4eb1-b6a0-fae382a4e471</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full text-black text-left p-2 text-sm cursor-pointer hover:bg-slate-100 bg-white</value>
+      <webElementGuid>43566d62-a1c5-4da7-a03e-74a1d74077cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>9 personnes</value>
+      <webElementGuid>084026ca-5d89-47e9-9c86-3a1c95649ec0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;__variable_6dfd4a __variable_f8227e notranslate&quot;]/body[1]/div[1]/div[@id=&quot;containerId&quot;]/div[@class=&quot;w-full lg:px-[9%]&quot;]/div[@id=&quot;container-id&quot;]/div[@id=&quot;container-id&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;w-auto flex items-center justify-bewteen&quot;]/div[@class=&quot;w-full relative text-left&quot;]/div[@class=&quot;block absolute z-[9999] w-full bg-white border border-solid w-full rounded-xl border border-primary lg:py-5 border-[var(--neutral-gray)] py-2 max-h-96 overflow-y-auto [&amp;::-webkit-scrollbar]:block lg:[&amp;::-webkit-scrollbar]:w-[0.375rem] [&amp;::-webkit-scrollbar]:w-1 [&amp;::-webkit-scrollbar]:bg-white [&amp;::-webkit-scrollbar]:rounded-xl [&amp;::-webkit-scrollbar-thumb]:bg-primary [&amp;::-webkit-scrollbar-thumb]:rounded-xl&quot;]/div[@class=&quot;bg-white hover:bg-slate-100&quot;]/button[@class=&quot;w-full text-black text-left p-2 text-sm cursor-pointer hover:bg-slate-100 bg-white&quot;]</value>
+      <webElementGuid>e5ae3d75-7930-4a79-8a87-1ac4f62a3d23</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>76cf003a-e58b-430a-abf5-c4255e3ea44e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='container-id']/div/div/div/div/div[6]/button</value>
+      <webElementGuid>32a555bd-dc70-4ad8-a94b-bbd46dcbbfb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='- Veuillez sélectionner -'])[1]/following::button[6]</value>
+      <webElementGuid>38ef2868-2692-48d0-a85f-f336b9efe4be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::button[7]</value>
+      <webElementGuid>166f57b4-c859-4c18-933b-4e56ce01234a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::button[2]</value>
+      <webElementGuid>5c94e3ce-b0bc-4178-9455-6038fc46f7f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sélectionner une formule'])[1]/preceding::button[2]</value>
+      <webElementGuid>20aee671-7578-49cb-a407-bd01e80d401b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='9 personnes']/parent::*</value>
+      <webElementGuid>26c29c90-57c2-48ae-8ac8-382a9fb474b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/button</value>
+      <webElementGuid>3d1c610f-a050-46fe-ab2b-ce540dfc9eb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '9 personnes' or . = '9 personnes')]</value>
+      <webElementGuid>05ce23e2-3aaf-41f2-bbf9-8612b0605617</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
