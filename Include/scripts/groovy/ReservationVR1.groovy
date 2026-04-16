@@ -149,7 +149,7 @@ class ReservationVR1 {
 			WebUI.waitForElementVisible(Select1, 20)
 			WebUI.waitForElementClickable(Select1, 20)
 			WebUI.click(Select1)
-			TestObject NbrPers4 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/slection_Nbr_Participants')
+			TestObject NbrPers4 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_4 personnes')
 			WebUI.waitForElementVisible(NbrPers4, 20)
 			WebUI.waitForElementClickable(NbrPers4, 20)
 			WebUI.click(NbrPers4)
