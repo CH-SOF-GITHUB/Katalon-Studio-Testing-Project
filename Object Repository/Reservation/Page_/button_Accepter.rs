@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Accepter</name>
+   <tag></tag>
+   <elementGuidId>59772f03-62e0-4401-bd18-aa949cda1dc9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[data-testid=&quot;cookie-banner-footer-sub-group&quot;] [data-testid=&quot;cookie-banner-accept-button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@data-testid = 'cookie-banner-footer-sub-group']//*[@data-testid = 'cookie-banner-accept-button']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9fc43b3e-fa40-4fca-bab8-3e4553545328</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c15t-button-YKOgW c15t-button-small-n5LJg c15t-button-primary-stroke-TWzjH</value>
+      <webElementGuid>8cbdc351-e3fd-40ba-91af-c9a6d9c7a276</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>cookie-banner-accept-button</value>
+      <webElementGuid>37670d5d-31aa-499e-86e4-7377bfaf17ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Accepter</value>
+      <webElementGuid>9d807b5d-b00e-44d1-a62b-40e36ac71065</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-867bf825729bc6ac95a5f8fe5a06736a</value>
+      <webElementGuid>4e93c6a9-69fc-4db3-bba2-0aa2f6c0cf2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'cookie-banner-footer-sub-group']//*[@data-testid = 'cookie-banner-accept-button']</value>
+      <webElementGuid>1abd3445-b8ef-47ed-b959-bdcd07e878d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@data-testid = 'cookie-banner-footer-sub-group']//*[@data-testid = 'cookie-banner-accept-button']</value>
+      <webElementGuid>aceea2ba-73bf-4d98-ad4a-85a93055c116</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Accepter' or . = 'Accepter')]</value>
+      <webElementGuid>c04f0d6d-84aa-49f1-be7d-264930be9499</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

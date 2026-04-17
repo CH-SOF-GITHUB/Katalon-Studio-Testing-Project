@@ -118,11 +118,11 @@ class ReservationVR1 {
 	@Given("I open discover reservation page")
 	void i_open_discover_reservation_page() {
 		try {
-			TestObject LinkReservation = findTestObject('Object Repository/PageObjects/Page_DEMO TENANT/Link_Rserver_Page_Home')
+			TestObject LinkReservation = findTestObject('Reservation/Page_DEMO TENANT/a_Rserver')
 			WebUI.waitForElementVisible(LinkReservation, 25)
 			WebUI.waitForElementClickable(LinkReservation, 25)
 			WebUI.click(LinkReservation)
-			WebUI.waitForPageLoad(7)
+			WebUI.waitForPageLoad(10)
 			println "STEP-BDD-5: finished"
 		} catch(NoSuchElementException e) {
 			e.fillInStackTrace()
@@ -133,7 +133,7 @@ class ReservationVR1 {
 	@When("I click on Exp Vr Card")
 	void i_click_on_exp_vr_card() {
 		try {
-			TestObject CardVr = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/h3_Vr Party Test')
+			TestObject CardVr = findTestObject('Reservation/Page_BOOKING PLAYPRO/div_Rserver')
 			WebUI.waitForElementVisible(CardVr, 25)
 			WebUI.waitForElementClickable(CardVr, 25)
 			WebUI.click(CardVr)
@@ -147,11 +147,11 @@ class ReservationVR1 {
 	@And("I select number of participants")
 	void i_select_number_of_participants() {
 		try {
-			TestObject Select1 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/slection_Nbr_Participants')
+			TestObject Select1 = findTestObject('Reservation/Page_Vr Party Test/div_Veuillez slectionner')
 			WebUI.waitForElementVisible(Select1, 25)
 			WebUI.waitForElementClickable(Select1, 25)
 			WebUI.click(Select1)
-			TestObject NbrPers4 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_4 personnes')
+			TestObject NbrPers4 = findTestObject('Reservation/Page_Vr Party Test/button_4 personnes')
 			WebUI.waitForElementVisible(NbrPers4, 25)
 			WebUI.waitForElementClickable(NbrPers4, 25)
 			WebUI.click(NbrPers4)
@@ -165,11 +165,11 @@ class ReservationVR1 {
 	@And("I select duration by price")
 	void i_select_duration_by_price() {
 		try {
-			TestObject Select2 = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/Slection_Duration_Exp')
+			TestObject Select2 = findTestObject('Reservation/Page_Vr Party Test/span_Slectionner une formule')
 			WebUI.waitForElementVisible(Select2, 25)
 			WebUI.waitForElementClickable(Select2, 25)
 			WebUI.click(Select2)
-			TestObject Slot45Min = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_45 min')
+			TestObject Slot45Min = findTestObject('Reservation/Page_Vr Party Test/button_4 personnes')
 			WebUI.waitForElementVisible(Slot45Min, 25)
 			WebUI.waitForElementClickable(Slot45Min, 25)
 			WebUI.click(Slot45Min)
@@ -183,11 +183,10 @@ class ReservationVR1 {
 	@And("I click on continue button")
 	void i_click_on_continue_button() {
 		try {
-			TestObject BtnContinuer = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/button_Continuer')
-			WebUI.waitForElementVisible(BtnContinuer, 25)
-			WebUI.waitForElementClickable(BtnContinuer, 25)
-			WebUI.click(BtnContinuer)
-			WebUI.waitForPageLoad(35)
+			TestObject BtnContinue = findTestObject('Reservation/Page_Vr Party Test/button_Continuer')
+			WebUI.waitForElementVisible(BtnContinue, 25)
+			WebUI.waitForElementClickable(BtnContinue, 25)
+			WebUI.click(BtnContinue)
 			println "STEP-BDD-9: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -197,11 +196,10 @@ class ReservationVR1 {
 	@When("I select time slot")
 	void i_select_time_slot() {
 		try {
-			TestObject DayOfReservation = findTestObject('Object Repository/PageObjects/Page_Vr Party Test/p_vendredi 01 mai')
-			WebUI.waitForElementVisible(DayOfReservation, 25)
-			String Text = WebUI.getText(DayOfReservation)
-			assertEquals("vendredi 01 mai", Text)
-			println "Text : " + Text
+			TestObject TimeSlot = findTestObject('Reservation/Page_Vr Party Test/button_20_00438')
+			WebUI.waitForElementVisible(TimeSlot, 25)
+			WebUI.waitForElementClickable(TimeSlot, 25)
+			WebUI.click(TimeSlot)
 			println "STEP-BDD-10: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -211,6 +209,10 @@ class ReservationVR1 {
 	@And("I click on confirm button")
 	void i_click_on_confirm_button() {
 		try {
+			TestObject ConfirmBtn = findTestObject('Reservation/Page_Vr Party Test/span_Soit 109.5_pers')
+			WebUI.waitForElementVisible(ConfirmBtn, 25)
+			WebUI.waitForElementClickable(ConfirmBtn, 25)
+			WebUI.click(ConfirmBtn)
 			println "STEP-BDD-11: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -220,6 +222,14 @@ class ReservationVR1 {
 	@And("I click on continue without option button")
 	void i_click_on_continue_without_option_button() {
 		try {
+			TestObject ContinueBtn2 = findTestObject('Reservation/Page_Vr Party Test/button_Continuer')
+			WebUI.waitForElementVisible(ContinueBtn2, 25)
+			WebUI.waitForElementClickable(ContinueBtn2, 25)
+			WebUI.click(ContinueBtn2)
+			TestObject ContinueBtnWithoutOption = findTestObject('Reservation/Page_Vr Party Test/button_Continuer sans option')
+			WebUI.waitForElementVisible(ContinueBtnWithoutOption, 25)
+			WebUI.waitForElementClickable(ContinueBtnWithoutOption, 25)
+			WebUI.click(ContinueBtnWithoutOption)
 			println "STEP-BDD-12: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -229,6 +239,10 @@ class ReservationVR1 {
 	@When("I click on stripe carte in cart")
 	void i_click_on_stripe_carte_in_cart() {
 		try {
+			TestObject StripeCart = findTestObject('Reservation/Page_Paiement scuris/span_md_w-5 w-4 md_h-5 h-4 border-2 border-black')
+			WebUI.waitForElementVisible(StripeCart, 25)
+			WebUI.waitForElementClickable(StripeCart, 25)
+			WebUI.click(StripeCart)
 			println "STEP-BDD-13: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -238,6 +252,11 @@ class ReservationVR1 {
 	@And("I click on payment button in cart")
 	void i_click_on_payment_button_in_cart() {
 		try {
+			TestObject PaymentBtn = findTestObject('Reservation/Page_Paiement scuris/button_Payer maintenant')
+			WebUI.waitForElementVisible(PaymentBtn, 25)
+			WebUI.waitForElementClickable(PaymentBtn, 25)
+			WebUI.click(PaymentBtn)
+			WebUI.waitForPageLoad(10)
 			println "STEP-BDD-14: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()
@@ -247,6 +266,11 @@ class ReservationVR1 {
 	@Then("Check that the booking had paid correctly")
 	void check_that_the_booking_had_paid_correctly() {
 		try {
+			WebUI.delay(5)
+			TestObject MsgSuccessReservation = findTestObject('Reservation/Page_Paiement scuris/p_Merci pour votre rservation')
+			WebUI.waitForElementVisible(MsgSuccessReservation, 25)
+			String ActualMsg = WebUI.getText(MsgSuccessReservation)
+			assertEquals("Expected and actual msgs are not match!","Merci pour votre réservation ! 🎉", ActualMsg)
 			println "STEP-BDD-15: finished"
 		} catch(Exception e) {
 			e.fillInStackTrace()

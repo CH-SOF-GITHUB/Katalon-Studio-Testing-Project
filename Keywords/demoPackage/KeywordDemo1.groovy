@@ -27,7 +27,7 @@ public class KeywordDemo1 {
 		String URL = WebUI.getUrl()
 		println("Current URL after Login: " + URL)
 	}
-	
+
 	@Keyword
 	def GetCurrentURL() {
 		String URL = WebUI.getUrl()

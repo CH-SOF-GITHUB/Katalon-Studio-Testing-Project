@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_20_00438</name>
+   <tag></tag>
+   <elementGuidId>1f312e70-eb68-4450-b8ba-787080e079cc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.relative:nth-child(1) .text-black[type=&quot;button&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' relative ') and (name() = 'div') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-black ') and (@type = 'button')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f2417674-6ad2-4933-9965-66f257e985cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>781f126c-4c1f-4f04-9f1c-846c304b8d99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full relative h-[60px] overflow-x-visible flex items-center justify-center rounded-[10px] 
+        bg-[#CACACA50] text-black </value>
+      <webElementGuid>bd82f914-4a75-46c2-b68c-54b351f1d3f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>20:00438€</value>
+      <webElementGuid>dd32a72f-4850-49f0-9fe0-0de69bb4f2c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3e4ec408fa0385cf168b74e30aab3f19</value>
+      <webElementGuid>2e24c537-1148-4965-b893-07b3475c3f24</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' relative ') and (name() = 'div') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-black ') and (@type = 'button')]</value>
+      <webElementGuid>d440458d-c401-48e1-b99f-16b5df2872f3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' relative ') and (name() = 'div') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' text-black ') and (@type = 'button')]</value>
+      <webElementGuid>12c8c820-3d29-4aae-83e5-65db8e2f9364</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '20:00438€' or . = '20:00438€')]</value>
+      <webElementGuid>03b5dcc0-9faf-4d81-a56b-7137a0d44b27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

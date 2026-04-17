@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Rserver</name>
+   <tag></tag>
+   <elementGuidId>8b5147e7-acf5-4899-9fce-eadb34140d8c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.shadow-md.cursor-pointer.group[role=&quot;button&quot;]:nth-child(1) .shadow-lg</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' shadow-md ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and contains(concat(' ', normalize-space(@class), ' '), ' group ') and (@role = 'button') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' shadow-lg ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f91511eb-857f-4821-b753-fb4fbefc6a84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center rounded-[10px] bg-secondary px-4 h-[1.875rem] text-sm font-normal text-accent transition-all active:scale-95 shadow-lg</value>
+      <webElementGuid>482dc293-f85f-498b-a7a4-4a114e6d17a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Réserver</value>
+      <webElementGuid>a6830b58-99dd-4972-8eec-3e2ca77cb6e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-7ad6de767fb0be42d86308f903db5d3b</value>
+      <webElementGuid>47083d68-9575-440a-8a1d-85d04ff45c49</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' shadow-md ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and contains(concat(' ', normalize-space(@class), ' '), ' group ') and (@role = 'button') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' shadow-lg ')]</value>
+      <webElementGuid>deb83588-b60c-444f-82c6-69854c084352</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' shadow-md ') and contains(concat(' ', normalize-space(@class), ' '), ' cursor-pointer ') and contains(concat(' ', normalize-space(@class), ' '), ' group ') and (@role = 'button') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' shadow-lg ')]</value>
+      <webElementGuid>44ac72f2-3d27-4e13-b30a-d7cfb8f6a1a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Réserver' or . = 'Réserver')]</value>
+      <webElementGuid>d8811994-e577-4362-a569-fb4f9adfae11</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

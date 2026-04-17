@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Rserver</name>
+   <tag></tag>
+   <elementGuidId>acf07a82-f4a3-430c-910f-a99f93dd999b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.bg-secondary.shadow</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' bg-secondary ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b9bd2ff4-3fb1-48c3-9562-9023397c9d01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bg-secondary text-accent px-4 py-1.5 rounded-[10px] shadow</value>
+      <webElementGuid>e98daf69-60d5-45b3-92c0-25cbf115ec40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/discover/reservation</value>
+      <webElementGuid>cf92472e-c55a-4a9b-9ddf-ef9124ef560c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Réserver</value>
+      <webElementGuid>efaf2f5b-702c-4f5f-89a9-1761fa275d60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-a158b4bb02c3c152a9a055cf9e23afcd</value>
+      <webElementGuid>2bcfb847-1a45-4316-8c18-320400d1b532</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' bg-secondary ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow ')]</value>
+      <webElementGuid>67c0fb0a-0666-4069-8911-7ea3496ef3e4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' bg-secondary ') and contains(concat(' ', normalize-space(@class), ' '), ' shadow ')]</value>
+      <webElementGuid>24dfb7d8-c5aa-4a8a-b0f2-a1248db0cc0f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/discover/reservation' and (text() = 'Réserver' or . = 'Réserver')]</value>
+      <webElementGuid>6a71a12b-dc59-466f-b073-707c97a57b0f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

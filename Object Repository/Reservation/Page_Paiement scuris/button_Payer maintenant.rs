@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Payer maintenant</name>
+   <tag></tag>
+   <elementGuidId>25b39852-22d3-4b98-a227-d6b408bff74f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-md.lg\:text-base</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' lg:text-base ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f86ae8ec-c4b6-4192-a5b2-fe0e9d9a578e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c5a1f8c0-1419-4705-9af0-5be841a7d967</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-full h-[51px] bg-[linear-gradient(91.16deg,theme(colors.secondary)_26.21%,color-mix(in_oklab,theme(colors.secondary),black_15%)_86.49%)] text-accent lg:text-base text-sm rounded-md justify-center items-center text-center first-letter:capitalize hover:brightness-110 inline-flex py-2 lg:px-4 opacity-100</value>
+      <webElementGuid>abc4a8e5-85d4-4566-97d6-fe5f40745a19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Payer maintenant</value>
+      <webElementGuid>5911ce8d-73e1-4986-b7f7-9f7c6a10de10</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-bca743671c691dbefffac259f241857c</value>
+      <webElementGuid>5743047f-faab-4b91-a623-89c59ad36d2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' lg:text-base ')]</value>
+      <webElementGuid>0699b49a-b3cd-4230-af1c-1bc17654dc74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-md ') and contains(concat(' ', normalize-space(@class), ' '), ' lg:text-base ')]</value>
+      <webElementGuid>de298769-e541-4c24-9871-d612fde07605</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Payer maintenant' or . = 'Payer maintenant')]</value>
+      <webElementGuid>e3661ab0-bcc4-4414-9359-b903e97ad3e2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
