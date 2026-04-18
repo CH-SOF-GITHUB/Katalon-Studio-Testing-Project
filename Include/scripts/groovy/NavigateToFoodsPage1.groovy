@@ -21,6 +21,9 @@ import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
+
+import static org.junit.Assert.assertEquals
+
 import org.openqa.selenium.By
 
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
@@ -49,10 +52,29 @@ class NavigateToFoodsPage1 {
 	 */
 	@Given("I click on Commander Button")
 	void i_click_on_commander_button() {
-		println(" commander btn is clicked")
+		try {
+			TestObject CommanderBtn = findTestObject('Reservation/Page_DEMO TENANT/span_Commander_food')
+			WebUI.waitForElementVisible(CommanderBtn, 25)
+			WebUI.waitForElementClickable(CommanderBtn, 25)
+			WebUI.click(CommanderBtn)
+			println(" commander btn is clicked")
+		} catch(NoSuchElementException e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
+
 
 	@Then("I verify that the reservation page is opening correctly")
 	void i_verify_the_reservation_food_page() {
+		try {
+			WebUI.delay(7)
+			String ActualURL = WebUI.getUrl()
+			assertEquals("Expected and Actual url of reservation food are not match!", "https://demotenant.playpro.fr/discover/food", ActualURL)
+			println("navigation to foods page successfully!")
+		} catch(NoSuchElementException e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
 }
