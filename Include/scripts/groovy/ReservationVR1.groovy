@@ -55,65 +55,6 @@ class ReservationVR1 {
 	// WebDriver Driver
 	// define explicit wait for web elements
 	// WebDriverWait Wait
-	/**
-	 * The step definitions below match with Katalon sample Gherkin steps
-	 */
-	@Given("I open login page web")
-	def i_open_login_page_web() {
-		try {
-			WebUI.openBrowser("https://demotenant.playpro.fr/connexion")
-			WebUI.maximizeWindow()
-			TestObject BtnCookieAccept = findTestObject('Object Repository/Cookies/button_Accepter')
-			WebUI.waitForElementVisible(BtnCookieAccept, 25)
-			WebUI.waitForElementClickable(BtnCookieAccept, 25)
-			WebUI.click(BtnCookieAccept)
-			println "STEP-BDD-1: finished"
-		} catch(NoSuchElementException e) {
-			e.fillInStackTrace()
-			throw e
-		}
-	}
-
-	@And("I type email value {string}")
-	void i_type_address_email_value(String email) {
-		try {
-			TestObject EmailField = findTestObject('Object Repository/FO_Login/input__email')
-			WebUI.waitForElementVisible(EmailField, 25)
-			WebUI.setText(EmailField, email)
-			println "STEP-BDD-2: finished"
-		} catch(NoSuchElementException e) {
-			e.fillInStackTrace()
-			throw e
-		}
-	}
-
-	@And("I type pwd value {string}")
-	void i_type_password_value(String password) {
-		try {
-			TestObject PwdField = findTestObject('Object Repository/FO_Login/input__password')
-			WebUI.waitForElementVisible(PwdField, 25)
-			WebUI.setText(PwdField, password)
-			println "STEP-BDD-3: finished"
-		} catch(NoSuchElementException e) {
-			e.fillInStackTrace()
-			throw e
-		}
-	}
-
-	@When("I click on Login Button")
-	void i_click_on_LoginButton() {
-		try {
-			TestObject LoginBtn = findTestObject('Object Repository/FO_Login/button_Me connecter')
-			WebUI.waitForElementVisible(LoginBtn, 25)
-			WebUI.waitForElementClickable(LoginBtn, 25)
-			WebUI.click(LoginBtn)
-			WebUI.waitForPageLoad(15)
-			println "STEP-BDD-4: finished"
-		} catch(NoSuchElementException e) {
-			e.fillInStackTrace()
-			throw e
-		}
-	}
 
 	@Given("I open discover reservation page")
 	void i_open_discover_reservation_page() {

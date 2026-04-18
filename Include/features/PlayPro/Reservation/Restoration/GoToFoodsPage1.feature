@@ -17,8 +17,8 @@
 # # (Comments)
 # Sample Feature Definition Template
 @tag
-Feature: PlayPro - Buy A New Voucher in Web Site FO
-  I want to buy a new voucher
+Feature: PlayPro Fo - Reservation Foods (Envie d’une pause gourmande ?)
+  As a client, I want to go to reservation foods page
 
   Background: Firstly, System Login
     Given I open login page web
@@ -27,19 +27,6 @@ Feature: PlayPro - Buy A New Voucher in Web Site FO
     When I click on Login Button
 
   @tag1
-  Scenario: Buy Gift Voucher 250 CHF
-    Given Click on Btn Offer a gift voucher
-    When Choose the amount of your gift card amount 250 CHF
-    And I click on Next Btn
-    And I click on bank card stripe in cart
-    When I click on payment btn
-    Then Check that Voucher was buying successfully
-
-  @tag2
-  Scenario: Buy Gift Voucher 100 CHF
-    Given Click on Btn Offer a gift voucher
-    When Choose the amount of your gift card amount 100 CHF
-    And I click on Next Btn
-    And I click on bank card stripe in cart
-    When I click on payment btn
-    Then Check that Voucher was buying successfully
+  Scenario: Navigate to Reservation Resto Page
+    Given I click on Commander Button
+    Then I verify that the reservation page is opening correctly
