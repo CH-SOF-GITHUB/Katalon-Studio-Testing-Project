@@ -17,8 +17,8 @@
 # # (Comments)
 # Sample Feature Definition Template
 @tag
-Feature: PlayPro Fo - Reservation Foods Method 1 (Envie d’une pause gourmande ?)
-  As a client, I want to go to reservation foods page
+Feature: PlayPro FO - Reservation Foods Method 2
+  As a client, I want to go to reservation foods page via navbar
 
   Background: Firstly, System Login
     Given I open login page web
@@ -27,6 +27,7 @@ Feature: PlayPro Fo - Reservation Foods Method 1 (Envie d’une pause gourmande 
     When I click on Login Button
 
   @tag1
-  Scenario: Navigate to Reservation Resto Page (M1)
-    Given I click on Commander Button
-    Then I verify that the reservation page is opening correctly
+  Scenario: Navigate to Reservation Resto Page (M2)
+    Given I click on Offre menu in navbar
+    When I click on Restaurant link
+    Then I verify the navigation to foods page
