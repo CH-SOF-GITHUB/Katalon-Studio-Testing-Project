@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/PlayPro/Reservation/BonCadeaux/AchatBC1.feature",
+features = "Include/features/PlayPro",
 glue = "",
 plugin = [
 	"pretty",
