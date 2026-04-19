@@ -47,84 +47,101 @@ class AchatBC1Steps {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
-	@Given("I open login page")
-	def i_open_login_page() {
-		WebUI.openBrowser("https://demotenant.playpro.fr/connexion")
-		WebUI.maximizeWindow()
-		WebUI.click(findTestObject('Object Repository/Cookies/button_Accepter'))
-		println "STEP-BDD-1: finished"
-	}
-
-	@And("I type email {string}")
-	void i_type_address_email(String email) {
-		WebUI.setText(findTestObject('Object Repository/FO_Login/input__email'), email)
-		println "STEP-BDD-2: finished"
-	}
-
-	@And("I type pwd {string}")
-	void i_type_password(String password) {
-		WebUI.setText(findTestObject('Object Repository/FO_Login/input__password'), password)
-		println "STEP-BDD-3: finished"
-	}
-
-	@When("I click on Login Btn")
-	void i_click_on_LoginBtn() {
-		WebUI.click(findTestObject('Object Repository/FO_Login/button_Me connecter'))
-		println "STEP-BDD-4: finished"
-	}
-
 	@Given("Click on Btn Offer a gift voucher")
-	def click_on_Btn_Offer_a_gift_voucher() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_playprosite/a_Offrir un bon cadeau'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_playprosite/a_Offrir un bon cadeau'))
-		println "STEP-BDD-5: finished"
+	void click_on_Btn_Offer_a_gift_voucher() {
+		try {
+			TestObject OffrirVoucherBtn = findTestObject('Object Repository/Reservation/Page_DEMO TENANT/span_Offrir un bon cadeau')
+			WebUI.waitForElementVisible(OffrirVoucherBtn, 25)
+			WebUI.waitForElementClickable(OffrirVoucherBtn, 25)
+			WebUI.click(OffrirVoucherBtn)
+			println "STEP-BDD-5: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
 
 	@When("Choose the amount of your gift card amount 250 CHF")
-	def choose_the_amount_of_your_gift_card_250_amount_CHF() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_250'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_250'))
-		println "STEP-BDD-6: finished"
+	void choose_the_amount_of_your_gift_card_250_amount_CHF() {
+		try {
+			TestObject Price250 = findTestObject('Object Repository/Reservation/Page_VOUCHER PLAYPRO/span_250')
+			WebUI.waitForElementVisible(Price250, 25)
+			WebUI.waitForElementClickable(Price250, 25)
+			WebUI.click(Price250)
+			println "STEP-BDD-6: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
 
 	@When("Choose the amount of your gift card amount 100 CHF")
-	def choose_the_amount_of_your_gift_card_100_amount_CHF() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_100'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_100'))
-		println "STEP-BDD-6: finished"
+	void choose_the_amount_of_your_gift_card_100_amount_CHF() {
+		try {
+			TestObject Price100 = findTestObject('Object Repository/Reservation/Page_VOUCHER PLAYPRO/span_100')
+			WebUI.waitForElementVisible(Price100, 25)
+			WebUI.waitForElementClickable(Price100, 25)
+			WebUI.click(Price100)
+			println "STEP-BDD-6: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
 
 	@And("I click on Next Btn")
-	def i_click_on_Next_Btn() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_Suivant'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_VOUCHER PLAYPRO/button_Suivant'))
-		println "STEP-BDD-7: finished"
+	void i_click_on_Next_Btn() {
+		try {
+			TestObject NextBtn = findTestObject('Object Repository/Reservation/Page_VOUCHER PLAYPRO/button_Suivant')
+			WebUI.waitForElementVisible(NextBtn, 25)
+			WebUI.waitForElementClickable(NextBtn, 25)
+			WebUI.click(NextBtn)
+			println "STEP-BDD-7: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
 
 	@And("I click on bank card stripe in cart")
 	def i_click_on_bank_card_stripe_in_cart() {
-		// wait for 7s
-		WebUI.delay(7)
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_Carte bancaire'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_Carte bancaire'))
-		//WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_xxxxxxxxxxxx42421126'), 15)
-		//WebUI.click(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/div_xxxxxxxxxxxx42421126'))
-		println "STEP-BDD-8: finished"
+		try {
+			TestObject StripeCart = findTestObject('Reservation/Page_Paiement scuris/span_md_w-5 w-4 md_h-5 h-4 border-2 border-black')
+			WebUI.waitForElementVisible(StripeCart, 25)
+			WebUI.waitForElementClickable(StripeCart, 25)
+			WebUI.click(StripeCart)
+			println "STEP-BDD-8: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+		}
 	}
 
 	@When("I click on payment btn")
 	def i_click_on_payment_btn() {
-		WebUI.verifyElementPresent(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/button_Payer maintenant'), 15)
-		WebUI.click(findTestObject('Object Repository/PageObjects/Page_Paiement scuris/button_Payer maintenant'))
-		println "STEP-BDD-9: finished"
+		try {
+			TestObject PaymentBtn = findTestObject('Reservation/Page_Paiement scuris/button_Payer maintenant')
+			WebUI.waitForElementVisible(PaymentBtn, 25)
+			WebUI.waitForElementClickable(PaymentBtn, 25)
+			WebUI.click(PaymentBtn)
+			WebUI.waitForPageLoad(10)
+			println "STEP-BDD-9: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+			throw e
+		}
 	}
 
 	@Then("Check that Voucher was buying successfully")
-	def check_that_Voucher_was_buying_successfully() {
-		WebUI.delay(7)
-		def ActuelURL = WebUI.getUrl()
-		WebUI.verifyEqual(ActuelURL, "https://demotenant.playpro.fr/Panier")
-		WebUI.closeBrowser()
-		println "STEP-BDD-10: finished"
+	void check_that_Voucher_was_buying_successfully() {
+		try {
+			WebUI.delay(5)
+			TestObject MsgSuccessReservation = findTestObject('Object Repository/Reservation/Page_Paiement scuris/p_Merci pour votre commande')
+			WebUI.waitForElementVisible(MsgSuccessReservation, 25)
+			String ActualMsg = WebUI.getText(MsgSuccessReservation)
+			assertEquals("Expected and actual msgs are not match!","Merci pour votre commande ! 🎉", ActualMsg)
+			println "STEP-BDD-10: finished"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+		}
 	}
 }

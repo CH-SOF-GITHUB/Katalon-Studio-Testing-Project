@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_100</name>
+   <tag></tag>
+   <elementGuidId>6e8b0be4-ed87-4a78-b925-7750ae4df8fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.rounded-xl.bg-primary:nth-child(3) span.font-sans</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-primary ') and (position() = 3)]//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-sans ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value></value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>86721e05-21c7-4c65-ae2a-d3ecfb86e9a4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-sans text-white</value>
+      <webElementGuid>a19a062b-cf6f-4c27-bdde-2e91cd3b2f8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>100€</value>
+      <webElementGuid>4bbdef4b-0e4f-48df-b779-505737c77503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9eb9646221a2df8ae376e90fdcf9404d</value>
+      <webElementGuid>dcdc82ab-e372-4874-8c13-3b0c18d55a38</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-primary ') and (position() = 3)]//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-sans ')]</value>
+      <webElementGuid>5b013562-e604-4c2e-b460-30255a8720cc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' rounded-xl ') and contains(concat(' ', normalize-space(@class), ' '), ' bg-primary ') and (position() = 3)]//span[@class and contains(concat(' ', normalize-space(@class), ' '), ' font-sans ')]</value>
+      <webElementGuid>a1148997-e840-45a5-8527-08a81c1bfab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '100€' or . = '100€')]</value>
+      <webElementGuid>d286ae37-981c-49c1-aeaf-e161ff51ac84</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

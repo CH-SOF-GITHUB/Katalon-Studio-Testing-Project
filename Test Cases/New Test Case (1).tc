@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>New Test Case</name>
+   <name>New Test Case (1)</name>
    <tag></tag>
    <comment></comment>
    <origin>WEB_RECORDER</origin>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>5e60aba6-f93b-44dd-98d4-3f41d229e818</testCaseGuid>
+   <testCaseGuid>1f1ed20c-f1c3-46c7-a883-8b3e58401121</testCaseGuid>
 </TestCaseEntity>
