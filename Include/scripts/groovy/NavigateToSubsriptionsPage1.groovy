@@ -17,13 +17,12 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 
-import dev.failsafe.internal.util.Assert
 import internal.GlobalVariable
-import static org.junit.Assert.assertEquals
+
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.By
-
+import static org.junit.Assert.assertEquals
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 import com.kms.katalon.core.webui.driver.DriverFactory
 
@@ -44,31 +43,31 @@ import io.cucumber.java.en.When
 
 
 
-class NavigateToFoodsPage2 {
+class NavigateToSubsriptionsPage1 {
 	/**
 	 * The step definitions below match with Katalon sample Gherkin steps
 	 */
 
-	@When("I click on Restaurant link")
-	void i_click_on_restaurant_link() {
+	@When("I click on Abonnements link")
+	void i_click_on_abonnements_link() {
 		try {
-			TestObject RestoLink = findTestObject('Object Repository/Reservation/Page_DEMO TENANT/a_headlessui-menu-item-_r8')
-			WebUI.waitForElementVisible(RestoLink, 25)
-			WebUI.waitForElementClickable(RestoLink, 25)
-			WebUI.click(RestoLink)
-			println "Resto Link is clicked !"
+			TestObject AbonnementsLink = findTestObject('Object Repository/Reservation/Page_DEMO TENANT/a_headlessui-menu-item-_r7')
+			WebUI.waitForElementVisible(AbonnementsLink, 25)
+			WebUI.waitForElementClickable(AbonnementsLink, 25)
+			WebUI.click(AbonnementsLink)
+			println "Subscriptions Link is clicked !"
 		}catch(Exception e) {
 			e.fillInStackTrace()
 			throw e
 		}
 	}
 
-	@Then("I verify the navigation to foods page")
-	void i_verify_the_navigation_to_foods_page() {
+	@Then("I verify the navigation to subscriptions page")
+	void i_verify_the_navigation_to_subscriptions_page() {
 		try {
 			WebUI.delay(7)
 			String ActualURL = WebUI.getUrl()
-			assertEquals("Expected and Actual url of reservation food are not match!", "https://demotenant.playpro.fr/discover/food", ActualURL)
+			assertEquals("Expected and Actual url of reservation food are not match!", "https://demotenant.playpro.fr/discover/serie", ActualURL)
 			println("navigation to foods page successfully!")
 		}catch(Exception e) {
 			e.fillInStackTrace()

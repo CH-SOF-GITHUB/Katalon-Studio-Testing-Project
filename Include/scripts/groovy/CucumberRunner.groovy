@@ -6,7 +6,7 @@ import io.cucumber.junit.CucumberOptions
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-features = "Include/features/PlayPro/Reservation/Restoration/GoToFoodsPage2.feature",
+features = "Include/features/PlayPro/Reservation/Abonnements/GoSubscriptionsPage1.feature",
 glue = "",
 plugin = [
 	"pretty",

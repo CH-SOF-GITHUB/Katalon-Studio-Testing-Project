@@ -106,4 +106,18 @@ class CommonSteps {
 			throw e
 		}
 	}
+
+	@Given("I click on Offre menu in navbar")
+	void i_click_on_offre_menu_in_navbar() {
+		try {
+			TestObject OffreMenu = findTestObject('Object Repository/Reservation/Page_DEMO TENANT/button_headlessui-menu-button-_r0')
+			WebUI.waitForElementVisible(OffreMenu, 25)
+			WebUI.waitForElementClickable(OffreMenu, 25)
+			WebUI.click(OffreMenu)
+			println "Offre Menu is clicked !"
+		} catch(Exception e) {
+			e.fillInStackTrace()
+			throw e
+		}
+	}
 }

@@ -17,8 +17,8 @@
 # # (Comments)
 # Sample Feature Definition Template
 @tag
-Feature: PlayPro FO - Reservation Foods Method 2
-  As a client, I want to go to reservation foods page via navbar
+Feature: PlayPro FO - Reservation Subscriptions - Method 1
+  As a client, I want to go to subscriptions page via navbar
 
   Background: Firstly, System Login
     Given I open login page web
@@ -27,7 +27,7 @@ Feature: PlayPro FO - Reservation Foods Method 2
     When I click on Login Button
 
   @tag1
-  Scenario: Navigate to Reservation Resto Page (M2)
+  Scenario: Navigate to Reservation Subscriptions Page (M1)
     Given I click on Offre menu in navbar
-    When I click on Restaurant link
-    Then I verify the navigation to foods page
+    When I click on Abonnements link
+    Then I verify the navigation to subscriptions page
